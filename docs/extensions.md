@@ -4,7 +4,7 @@ This document is about implementing extensions.
 If you are looking for a list of XEPs implemented by this library, see
 [https://mellium.im/docs/xeps/](https://mellium.im/docs/xeps/).
 
-The [`mellium.im/xmpp`] module contains a number of packages that implement
+The [`github.com/kamrankamilli/xmpp`] module contains a number of packages that implement
 [XMPP Extension Protocols][XEP] (XEPs).
 When contributing new packages, or publishing your own proprietary extensions
 separately, it's important to make sure that your package is consistent with
@@ -21,7 +21,7 @@ For instance, [XEP-0082: XMPP Date and Time Profiles][XEP-0082] and [XEP-0202:
 Entity Time][XEP-0202] are both related to the concept of transmitting time over
 an XMPP connection, and XEP-0082 is effectively just a list of constants.
 Because of this, they both share a single package,
-[`mellium.im/xmpp/xtime`][`mellium.im/xmpp/xtime`] (note that `xtime` would not
+[`github.com/kamrankamilli/xmpp/xtime`][`github.com/kamrankamilli/xmpp/xtime`] (note that `xtime` would not
 normally be considered a good package name, `time` would be better but this
 conflicts with a package in the standard library).
 Similarly, the various XEPs that make up the Jingle signaling protocol would
@@ -87,7 +87,7 @@ for a time and getting one in the format they're already used to dealing with.
 
 ## Use the `mux` package to handle incoming data
 
-The [`mellium.im/xmpp/mux`] package provides an [`xmpp.Handler`] that can
+The [`github.com/kamrankamilli/xmpp/mux`] package provides an [`xmpp.Handler`] that can
 multiplex various top level elements to custom handlers based on their name or
 stanza type and the name of a payload.
 While other multiplexers may exist in the future, they should all use the
@@ -149,7 +149,7 @@ Many XEPs will likely have a single payload that needs to be exported.
 In this case, if the payload does not need any custom logic to marshal or
 unmarshal, a struct representing the full IQ (or other stanza type) should be
 exported.
-For example, the [`mellium.im/xmpp/ping`] package contains the definition for a
+For example, the [`github.com/kamrankamilli/xmpp/ping`] package contains the definition for a
 ping IQ:
 
     // IQ is encoded as a ping request.
@@ -284,20 +284,20 @@ Functions that returns iterators are called `Fetch` by convention (eg.
 
 
 [`xmlstream.Iter`]: https://pkg.go.dev/mellium.im/xmlstream#Iter
-[`mellium.im/xmpp`]: https://pkg.go.dev/mellium.im/xmpp/mux
-[`mellium.im/xmpp/mux`]: https://pkg.go.dev/mellium.im/xmpp/mux
-[`mellium.im/xmpp/ping`]: https://pkg.go.dev/mellium.im/xmpp/ping
-[`mellium.im/xmpp/xtime`]: https://pkg.go.dev/mellium.im/xmpp/xtime
-[`mux.IQHandler`]: https://pkg.go.dev/mellium.im/xmpp/mux#IQHandler
-[`mux.MessageHandler`]: https://pkg.go.dev/mellium.im/xmpp/mux#MessageHandler
-[`mux.Option`]: https://pkg.go.dev/mellium.im/xmpp/mux#Option
-[`mux.PresenceHandler`]: https://pkg.go.dev/mellium.im/xmpp/mux#PresenceHandler
-[`mux.ServeMux`]: https://pkg.go.dev/mellium.im/xmpp/mux#ServeMux
-[`ping.Handle`]: https://pkg.go.dev/mellium.im/xmpp/ping#Handle
-[`ping.Handler`]: https://pkg.go.dev/mellium.im/xmpp/ping#Handler
-[`ping.IQ`]: https://pkg.go.dev/mellium.im/xmpp/ping#IQ
-[`roster`]: https://pkg.go.dev/mellium.im/xmpp/roster
-[`roster.Item`]: https://pkg.go.dev/mellium.im/xmpp/roster#Item
+[`github.com/kamrankamilli/xmpp`]: https://pkg.go.dev/github.com/kamrankamilli/xmpp/mux
+[`github.com/kamrankamilli/xmpp/mux`]: https://pkg.go.dev/github.com/kamrankamilli/xmpp/mux
+[`github.com/kamrankamilli/xmpp/ping`]: https://pkg.go.dev/github.com/kamrankamilli/xmpp/ping
+[`github.com/kamrankamilli/xmpp/xtime`]: https://pkg.go.dev/github.com/kamrankamilli/xmpp/xtime
+[`mux.IQHandler`]: https://pkg.go.dev/github.com/kamrankamilli/xmpp/mux#IQHandler
+[`mux.MessageHandler`]: https://pkg.go.dev/github.com/kamrankamilli/xmpp/mux#MessageHandler
+[`mux.Option`]: https://pkg.go.dev/github.com/kamrankamilli/xmpp/mux#Option
+[`mux.PresenceHandler`]: https://pkg.go.dev/github.com/kamrankamilli/xmpp/mux#PresenceHandler
+[`mux.ServeMux`]: https://pkg.go.dev/github.com/kamrankamilli/xmpp/mux#ServeMux
+[`ping.Handle`]: https://pkg.go.dev/github.com/kamrankamilli/xmpp/ping#Handle
+[`ping.Handler`]: https://pkg.go.dev/github.com/kamrankamilli/xmpp/ping#Handler
+[`ping.IQ`]: https://pkg.go.dev/github.com/kamrankamilli/xmpp/ping#IQ
+[`roster`]: https://pkg.go.dev/github.com/kamrankamilli/xmpp/roster
+[`roster.Item`]: https://pkg.go.dev/github.com/kamrankamilli/xmpp/roster#Item
 [support]: https://mellium.im/docs/SUPPORT
 [`time.Time`]: https://golang.org/pkg/time/#Time
 [XEP-0047]: https://xmpp.org/extensions/xep-0047.html
@@ -309,8 +309,8 @@ Functions that returns iterators are called `Fetch` by convention (eg.
 [`xmlstream.Marshaler`]: https://pkg.go.dev/mellium.im/xmlstream#Marshaler
 [`xmlstream.WriterTo`]: https://pkg.go.dev/mellium.im/xmlstream#WriterTo
 [`xml.Unmarshaler`]: https://golang.org/pkg/encoding/xml/#Unmarshaler
-[`xmpp.Handler`]: https://pkg.go.dev/mellium.im/xmpp#Handler
-[`xtime.Get`]: https://pkg.go.dev/mellium.im/xmpp/xtime#Get
-[`xtime.Handle`]: https://pkg.go.dev/mellium.im/xmpp/xtime#Handle
-[`xtime.Handler`]: https://pkg.go.dev/mellium.im/xmpp/xtime#Handler
-[`xtime.Time`]: https://pkg.go.dev/mellium.im/xmpp/xtime#Time
+[`xmpp.Handler`]: https://pkg.go.dev/github.com/kamrankamilli/xmpp#Handler
+[`xtime.Get`]: https://pkg.go.dev/github.com/kamrankamilli/xmpp/xtime#Get
+[`xtime.Handle`]: https://pkg.go.dev/github.com/kamrankamilli/xmpp/xtime#Handle
+[`xtime.Handler`]: https://pkg.go.dev/github.com/kamrankamilli/xmpp/xtime#Handler
+[`xtime.Time`]: https://pkg.go.dev/github.com/kamrankamilli/xmpp/xtime#Time

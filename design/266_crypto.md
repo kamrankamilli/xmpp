@@ -119,4 +119,4 @@ that can be passed to the multiplexer:
 [`hash`]: https://pkg.go.dev/hash
 [`crypto`]: https://pkg.go.dev/crypto
 [`hash.Hash`]: https://pkg.go.dev/hash#Hash
-[`xtime`]: https://pkg.go.dev/mellium.im/xmpp/xtime
+[`xtime`]: https://pkg.go.dev/github.com/kamrankamilli/xmpp/xtime

@@ -12,7 +12,7 @@ When making a release, remember to do the following:
 - Create a new release on Codeberg (https://codeberg.org/mellium/xmpp/releases)
   using the same annotation, making sure headers make sense (remove the top
   level one, Codeberg will create that from the tag)
-- Do a `go get mellium.im/xmpp@release` (on a machine that has not disabled the
+- Do a `go get github.com/kamrankamilli/xmpp@release` (on a machine that has not disabled the
   proxy) to trigger the docs being built
 - Write up a release announcement on https://opencollective.com/mellium
 - Announce the release

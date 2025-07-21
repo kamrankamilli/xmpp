@@ -11,7 +11,7 @@ This proposal will detail a [mid-level API] to subscribe to nodes and act on
 events that can be used by other packages that use pubsub.
 
 
-[`pubsub` package]: https://pkg.go.dev/mellium.im/xmpp/pubsub
+[`pubsub` package]: https://pkg.go.dev/github.com/kamrankamilli/xmpp/pubsub
 [mid-level API]: https://mellium.im/docs/ARCHITECTURE
 
 
@@ -272,4 +272,4 @@ Implementing this proposal would add seven types, 19 methods, 21 constants,
 and one function that would need to remain backwards compatible once we reach
 1.0.
 
-[`mux`]: https://pkg.go.dev/mellium.im/xmpp/mux
+[`mux`]: https://pkg.go.dev/github.com/kamrankamilli/xmpp/mux

@@ -22,7 +22,7 @@ To this end a new `IQMux` will be introduced that can be registered with the top
 level multiplexer to handle all IQ elements and can take its own custom handlers
 meant for matching IQ payloads.
 
-[multiplexer]: https://pkg.go.dev/mellium.im/xmpp/mux#ServeMux
+[multiplexer]: https://pkg.go.dev/github.com/kamrankamilli/xmpp/mux#ServeMux
 
 
 ## Requirements

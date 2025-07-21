@@ -93,12 +93,12 @@ cause a panic, but this behavior is subject to change in the future.
 [IQ mux proposal]: https://mellium.im/design/18_iqmux
 [`Decoder.Decode`]: https://golang.org/pkg/encoding/xml/#Decoder.Decode
 [`Decoder.DecodeElement`]: https://golang.org/pkg/encoding/xml/#Decoder.DecodeElement
-[`Handler`]: https://pkg.go.dev/mellium.im/xmpp#Handler
-[`IQHandler`]: https://pkg.go.dev/mellium.im/xmpp/mux#IQHandler
-[`HandlerFunc`]: https://pkg.go.dev/mellium.im/xmpp#HandlerFunc
-[`stanza.Message`]: https://pkg.go.dev/mellium.im/xmpp/stanza#Message
-[`stanza.IQ`]: https://pkg.go.dev/mellium.im/xmpp/stanza#IQ
-[`stanza.Presence`]: https://pkg.go.dev/mellium.im/xmpp/stanza#Presence
+[`Handler`]: https://pkg.go.dev/github.com/kamrankamilli/xmpp#Handler
+[`IQHandler`]: https://pkg.go.dev/github.com/kamrankamilli/xmpp/mux#IQHandler
+[`HandlerFunc`]: https://pkg.go.dev/github.com/kamrankamilli/xmpp#HandlerFunc
+[`stanza.Message`]: https://pkg.go.dev/github.com/kamrankamilli/xmpp/stanza#Message
+[`stanza.IQ`]: https://pkg.go.dev/github.com/kamrankamilli/xmpp/stanza#IQ
+[`stanza.Presence`]: https://pkg.go.dev/github.com/kamrankamilli/xmpp/stanza#Presence
 [`xml.Decoder`]: https://golang.org/pkg/encoding/xml/#Decoder
-[ServeMux]: https://pkg.go.dev/mellium.im/xmpp/mux#ServeMux
-[`Handle`]: https://pkg.go.dev/mellium.im/xmpp/mux#Handle
+[ServeMux]: https://pkg.go.dev/github.com/kamrankamilli/xmpp/mux#ServeMux
+[`Handle`]: https://pkg.go.dev/github.com/kamrankamilli/xmpp/mux#Handle

@@ -137,7 +137,7 @@ conditions.
 [pull request]: https://codeberg.org/mellium/xmpp/pulls
 [`good first issue`]: https://codeberg.org/mellium/xmpp/issues?labels=57316
 [`security@mellium.im`]: mailto:security@mellium.im
-[`dial`]: https://pkg.go.dev/mellium.im/xmpp/dial
+[`dial`]: https://pkg.go.dev/github.com/kamrankamilli/xmpp/dial
 [benchstat]: https://godoc.org/golang.org/x/perf/cmd/benchstat
 [developercertificate.org]: https://developercertificate.org/
 [DCO]: https://codeberg.org/mellium/xmpp/src/branch/main/DCO

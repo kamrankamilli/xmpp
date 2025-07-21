@@ -1,6 +1,6 @@
 # XMPP
 
-[![GoDoc](https://godoc.org/mellium.im/xmpp?status.svg)][docs]
+[![GoDoc](https://godoc.org/github.com/kamrankamilli/xmpp?status.svg)][docs]
 [![Chat](https://img.shields.io/badge/XMPP-users@mellium.chat-orange.svg)](https://mellium.chat)
 [![License](https://img.shields.io/badge/license-FreeBSD-blue.svg)](https://opensource.org/licenses/BSD-2-Clause)
 [![Build Status](https://ci.codeberg.org/api/badges/mellium/xmpp/status.svg)](https://ci.codeberg.org/mellium/xmpp)
@@ -29,7 +29,7 @@ This library supports instant messaging features such as:
 To use it in your project, import it (or any of its other packages) like so:
 
 ```go
-import mellium.im/xmpp
+import github.com/kamrankamilli/xmpp
 ```
 
 If you're looking to get started and need some help, see the [API docs][docs] or
@@ -51,7 +51,7 @@ in the work by you shall be licensed as above, without any additional terms or
 conditions.
 
 
-[docs]: https://pkg.go.dev/mellium.im/xmpp
+[docs]: https://pkg.go.dev/github.com/kamrankamilli/xmpp
 [CONTRIBUTING.md]: https://mellium.im/docs/CONTRIBUTING
 [LICENSE]: https://codeberg.org/mellium/xmpp/src/branch/main/LICENSE
 [LICENSE-GO]: https://codeberg.org/mellium/xmpp/src/branch/main/LICENSE-GO

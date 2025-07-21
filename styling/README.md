@@ -44,4 +44,4 @@ implementation uses a smaller buffer size or breaks up long spans differently
 you may have to account for this when running these test cases.
 
 [XEP-0393: Message Styling]: https://xmpp.org/extensions/xep-0393.html
-[constants]: https://pkg.go.dev/mellium.im/xmpp/styling#pkg-constants
+[constants]: https://pkg.go.dev/github.com/kamrankamilli/xmpp/styling#pkg-constants

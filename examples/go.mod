@@ -1,4 +1,4 @@
-module mellium.im/xmpp/examples
+module github.com/kamrankamilli/xmpp/examples
 
 go 1.22.0
 
@@ -8,7 +8,7 @@ require (
 	github.com/rivo/tview v0.0.0-20241103174730-c76f7879f592
 	mellium.im/sasl v0.3.2
 	mellium.im/xmlstream v0.15.4
-	mellium.im/xmpp v0.22.0
+	github.com/kamrankamilli/xmpp v0.22.0
 )
 
 require (
@@ -28,4 +28,4 @@ require (
 	mellium.im/reader v0.1.0 // indirect
 )
 
-replace mellium.im/xmpp => ../
+replace github.com/kamrankamilli/xmpp => ../

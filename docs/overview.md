@@ -20,7 +20,7 @@ When I started looking into a Go XMPP implementation around 2014, there wasn't a
 low-level library meant to act as a building block from which higher level
 systems could be created.
 I wanted the equivalent of the standard library's [`net/http`] but for XMPP.
-This is why I created [`mellium.im/xmpp`].
+This is why I created [`github.com/kamrankamilli/xmpp`].
 This document is about some of the design decisions I made while building the
 library, and about some of the trade offs made along the way.
 
@@ -115,9 +115,9 @@ const (
 ```
 
 
-[`SessionState`]: https://pkg.go.dev/mellium.im/xmpp#SessionState
-[necessary]: https://pkg.go.dev/mellium.im/xmpp#StreamFeature.Necessary
-[prohibited]: https://pkg.go.dev/mellium.im/xmpp#StreamFeature.Necessary
+[`SessionState`]: https://pkg.go.dev/github.com/kamrankamilli/xmpp#SessionState
+[necessary]: https://pkg.go.dev/github.com/kamrankamilli/xmpp#StreamFeature.Necessary
+[prohibited]: https://pkg.go.dev/github.com/kamrankamilli/xmpp#StreamFeature.Necessary
 
 
 ## Session Negotiation
@@ -187,8 +187,8 @@ connection.
 
 [RFC 7395]: https://tools.ietf.org/html/rfc7395
 [XEP-0114]: https://xmpp.org/extensions/xep-0114.html
-[`xmpp/component`]: https://pkg.go.dev/mellium.im/xmpp/component
-[`NewNegotiator`]: https://pkg.go.dev/mellium.im/xmpp#NewNegotiator
+[`xmpp/component`]: https://pkg.go.dev/github.com/kamrankamilli/xmpp/component
+[`NewNegotiator`]: https://pkg.go.dev/github.com/kamrankamilli/xmpp#NewNegotiator
 
 
 ## Receiving Data
@@ -229,15 +229,15 @@ types: [`IQHandler`], [`MessageHandler`], and [`PresenceHandler`], which should
 be reused by third party multiplexers.
 
 
-[`Session.Serve`]: https://pkg.go.dev/mellium.im/xmpp#Session.Serve
-[`Handler`]: https://pkg.go.dev/mellium.im/xmpp#Handler
-[`xmpp/mux`]: https://pkg.go.dev/mellium.im/xmpp/mux
+[`Session.Serve`]: https://pkg.go.dev/github.com/kamrankamilli/xmpp#Session.Serve
+[`Handler`]: https://pkg.go.dev/github.com/kamrankamilli/xmpp#Handler
+[`xmpp/mux`]: https://pkg.go.dev/github.com/kamrankamilli/xmpp/mux
 [RELAX NG]: https://relaxng.org/
 [Clark notation]: https://web.archive.org/web/20200320131503/http://www.jclark.com/xml/xmlns.htm
 [XPath]: https://www.w3.org/TR/xpath/all/
-[`IQHandler`]: https://pkg.go.dev/mellium.im/xmpp/mux#IQHandler
-[`MessageHandler`]: https://pkg.go.dev/mellium.im/xmpp/mux#MessageHandler
-[`PresenceHandler`]: https://pkg.go.dev/mellium.im/xmpp/mux#PresenceHandler
+[`IQHandler`]: https://pkg.go.dev/github.com/kamrankamilli/xmpp/mux#IQHandler
+[`MessageHandler`]: https://pkg.go.dev/github.com/kamrankamilli/xmpp/mux#MessageHandler
+[`PresenceHandler`]: https://pkg.go.dev/github.com/kamrankamilli/xmpp/mux#PresenceHandler
 
 
 ## Sending Data
@@ -278,13 +278,13 @@ error if the server isn't running, but for now their behavior without the
 forever).
 
 
-[`Encode`]: https://pkg.go.dev/mellium.im/xmpp#Session.Encode
-[`EncodeElement`]: https://pkg.go.dev/mellium.im/xmpp#Session.EncodeElement
-[`Send`]: https://pkg.go.dev/mellium.im/xmpp#Session.Send
-[`SendElement`]: https://pkg.go.dev/mellium.im/xmpp#Session.SendElement
-[`SendIQ`]: https://pkg.go.dev/mellium.im/xmpp#Session.SendIQ
-[`SendIQElement`]: https://pkg.go.dev/mellium.im/xmpp#Session.SendIQElement
-[`TokenWriter`]: https://pkg.go.dev/mellium.im/xmpp#Session.TokenWriter
+[`Encode`]: https://pkg.go.dev/github.com/kamrankamilli/xmpp#Session.Encode
+[`EncodeElement`]: https://pkg.go.dev/github.com/kamrankamilli/xmpp#Session.EncodeElement
+[`Send`]: https://pkg.go.dev/github.com/kamrankamilli/xmpp#Session.Send
+[`SendElement`]: https://pkg.go.dev/github.com/kamrankamilli/xmpp#Session.SendElement
+[`SendIQ`]: https://pkg.go.dev/github.com/kamrankamilli/xmpp#Session.SendIQ
+[`SendIQElement`]: https://pkg.go.dev/github.com/kamrankamilli/xmpp#Session.SendIQElement
+[`TokenWriter`]: https://pkg.go.dev/github.com/kamrankamilli/xmpp#Session.TokenWriter
 
 
 ## Conclusion
@@ -300,8 +300,8 @@ extensions were written the way that they have been), see the file
 Finally, be sure to [let me know] if you build anything interesting with
 Mellium!
 
-[subdirectories]: https://pkg.go.dev/mellium.im/xmpp?tab=subdirectories
+[subdirectories]: https://pkg.go.dev/github.com/kamrankamilli/xmpp?tab=subdirectories
 [let me know]: xmpp:sam@samwhited.com?message
 
-[`mellium.im/xmpp`]: https://pkg.go.dev/mellium.im/xmpp
+[`github.com/kamrankamilli/xmpp`]: https://pkg.go.dev/github.com/kamrankamilli/xmpp
 [`net/http`]: https://golang.org/pkg/net/http/

@@ -1,7 +1,7 @@
 # Architecture
 
 This document provides a high-level architectural overview of the
-[`mellium.im/xmpp`] module.
+[`github.com/kamrankamilli/xmpp`] module.
 Its target audience is contributors looking to familiarize themselves with the
 codebase.
 The Mellium project is designed to be very modular.
@@ -103,21 +103,21 @@ XMPP Extensions]".
 If you are looking for a specific XEP and the package that implements it see:
 [mellium.im/docs/xeps].
 
-[`dial`]: https://pkg.go.dev/mellium.im/xmpp/dial
+[`dial`]: https://pkg.go.dev/github.com/kamrankamilli/xmpp/dial
 [Implementing XMPP Extensions]: https://mellium.im/docs/extensions
-[`internal/discover`]: https://pkg.go.dev/mellium.im/xmpp/internal/discover
-[`internal/stream`]: https://pkg.go.dev/mellium.im/xmpp/internal/stream
-[`jid`]: https://pkg.go.dev/mellium.im/xmpp/jid
+[`internal/discover`]: https://pkg.go.dev/github.com/kamrankamilli/xmpp/internal/discover
+[`internal/stream`]: https://pkg.go.dev/github.com/kamrankamilli/xmpp/internal/stream
+[`jid`]: https://pkg.go.dev/github.com/kamrankamilli/xmpp/jid
 [mellium.im/docs/xeps]: https://mellium.im/docs/xeps
-[`mellium.im/xmpp`]: https://mellium.im/xmpp
-[`mux`]: https://pkg.go.dev/mellium.im/xmpp/mux
-[`stanza`]: https://pkg.go.dev/mellium.im/xmpp/stanza
-[`stream`]: https://pkg.go.dev/mellium.im/xmpp/stream
-[`websocket`]: https://pkg.go.dev/mellium.im/xmpp/websocket
+[`github.com/kamrankamilli/xmpp`]: https://github.com/kamrankamilli/xmpp
+[`mux`]: https://pkg.go.dev/github.com/kamrankamilli/xmpp/mux
+[`stanza`]: https://pkg.go.dev/github.com/kamrankamilli/xmpp/stanza
+[`stream`]: https://pkg.go.dev/github.com/kamrankamilli/xmpp/stream
+[`websocket`]: https://pkg.go.dev/github.com/kamrankamilli/xmpp/websocket
 [XEP-0082]: https://xmpp.org/extensions/xep-0082.html
 [XEP-0202]: https://xmpp.org/extensions/xep-0202.html
 [XEP-0313]: https://xmpp.org/extensions/xep-0313.html
 [XEP]: https://xmpp.org/extensions/
-[`xmpp.Handler`]: https://pkg.go.dev/mellium.im/xmpp#Handler
-[`xmpp`]: https://pkg.go.dev/mellium.im/xmpp
-[`xtime`]: https://pkg.go.dev/mellium.im/xmpp/xtime
+[`xmpp.Handler`]: https://pkg.go.dev/github.com/kamrankamilli/xmpp#Handler
+[`xmpp`]: https://pkg.go.dev/github.com/kamrankamilli/xmpp
+[`xtime`]: https://pkg.go.dev/github.com/kamrankamilli/xmpp/xtime

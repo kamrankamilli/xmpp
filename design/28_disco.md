@@ -72,6 +72,6 @@ Overall this will result in 1 new type, one new method, and one new function
 that will need to remain backwards compatible once we reach 1.0.
 
 
-[`mux`]: https://pkg.go.dev/mellium.im/xmpp/mux
+[`mux`]: https://pkg.go.dev/github.com/kamrankamilli/xmpp/mux
 [XEP-0030: Service Discovery]: https://xmpp.org/extensions/xep-0030.html
 [XEP-0115: Entity Capabilities]: https://xmpp.org/extensions/xep-0115.html
