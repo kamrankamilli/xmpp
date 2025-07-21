@@ -7,7 +7,7 @@ package crypto
 import (
 	"fmt"
 
-	"mellium.im/xmpp/disco/info"
+	"kamrankamilli/xmpp/disco/info"
 )
 
 // Features returns an iter that can be registered against a mux to advertise

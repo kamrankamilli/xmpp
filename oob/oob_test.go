@@ -10,9 +10,9 @@ import (
 	"testing"
 
 	"mellium.im/xmlstream"
-	"mellium.im/xmpp/jid"
-	"mellium.im/xmpp/oob"
-	"mellium.im/xmpp/stanza"
+	"kamrankamilli/xmpp/jid"
+	"kamrankamilli/xmpp/oob"
+	"kamrankamilli/xmpp/stanza"
 )
 
 var (

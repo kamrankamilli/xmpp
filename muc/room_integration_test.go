@@ -14,13 +14,13 @@ import (
 	"time"
 
 	"mellium.im/sasl"
-	"mellium.im/xmpp"
-	"mellium.im/xmpp/internal/integration"
-	"mellium.im/xmpp/internal/integration/prosody"
-	"mellium.im/xmpp/jid"
-	"mellium.im/xmpp/muc"
-	"mellium.im/xmpp/mux"
-	"mellium.im/xmpp/stanza"
+	"kamrankamilli/xmpp"
+	"kamrankamilli/xmpp/internal/integration"
+	"kamrankamilli/xmpp/internal/integration/prosody"
+	"kamrankamilli/xmpp/jid"
+	"kamrankamilli/xmpp/muc"
+	"kamrankamilli/xmpp/mux"
+	"kamrankamilli/xmpp/stanza"
 )
 
 const (

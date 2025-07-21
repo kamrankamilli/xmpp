@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"testing"
 
-	"mellium.im/xmpp/internal/cid"
+	"kamrankamilli/xmpp/internal/cid"
 )
 
 const invalidURL = "%gh&%ij"

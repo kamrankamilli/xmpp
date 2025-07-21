@@ -13,9 +13,9 @@ import (
 
 	"mellium.im/sasl"
 	"mellium.im/xmlstream"
-	"mellium.im/xmpp"
-	"mellium.im/xmpp/jid"
-	"mellium.im/xmpp/stanza"
+	"kamrankamilli/xmpp"
+	"kamrankamilli/xmpp/jid"
+	"kamrankamilli/xmpp/stanza"
 )
 
 const (

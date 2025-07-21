@@ -11,9 +11,9 @@ import (
 	"testing"
 
 	"mellium.im/xmlstream"
-	"mellium.im/xmpp"
-	"mellium.im/xmpp/internal/xmpptest"
-	"mellium.im/xmpp/stanza"
+	"kamrankamilli/xmpp"
+	"kamrankamilli/xmpp/internal/xmpptest"
+	"kamrankamilli/xmpp/stanza"
 )
 
 func TestNewSession(t *testing.T) {

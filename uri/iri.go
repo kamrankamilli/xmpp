@@ -6,7 +6,7 @@
 //
 // It also provides easy access to query components defined in XEP-0147: XMPP
 // URI Scheme Query Components and the XMPP URI/IRI Querytypes registry.
-package uri // import "mellium.im/xmpp/uri"
+package uri // import "kamrankamilli/xmpp/uri"
 
 import (
 	"errors"
@@ -15,7 +15,7 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"mellium.im/xmpp/jid"
+	"kamrankamilli/xmpp/jid"
 )
 
 var (

@@ -7,7 +7,7 @@
 // found in the file "LICENSE.modules".
 
 // Package prosody facilitates integration testing against Prosody.
-package prosody // import "mellium.im/xmpp/internal/integration/prosody"
+package prosody // import "kamrankamilli/xmpp/internal/integration/prosody"
 
 import (
 	"context"
@@ -18,8 +18,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"mellium.im/xmpp/internal/integration"
-	"mellium.im/xmpp/jid"
+	"kamrankamilli/xmpp/internal/integration"
+	"kamrankamilli/xmpp/jid"
 )
 
 const (

@@ -15,7 +15,7 @@ import (
 	"golang.org/x/image/font/inconsolata"
 	"golang.org/x/image/math/fixed"
 
-	colorgen "mellium.im/xmpp/color"
+	colorgen "kamrankamilli/xmpp/color"
 )
 
 const (

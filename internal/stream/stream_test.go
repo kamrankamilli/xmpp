@@ -13,11 +13,11 @@ import (
 	"strings"
 	"testing"
 
-	"mellium.im/xmpp/internal/decl"
-	intstream "mellium.im/xmpp/internal/stream"
-	"mellium.im/xmpp/stanza"
-	"mellium.im/xmpp/stream"
-	"mellium.im/xmpp/websocket"
+	"kamrankamilli/xmpp/internal/decl"
+	intstream "kamrankamilli/xmpp/internal/stream"
+	"kamrankamilli/xmpp/stanza"
+	"kamrankamilli/xmpp/stream"
+	"kamrankamilli/xmpp/websocket"
 )
 
 var expectTestCases = [...]struct {

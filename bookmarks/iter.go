@@ -8,10 +8,10 @@ import (
 	"context"
 	"encoding/xml"
 
-	"mellium.im/xmpp"
-	"mellium.im/xmpp/jid"
-	"mellium.im/xmpp/pubsub"
-	"mellium.im/xmpp/stanza"
+	"kamrankamilli/xmpp"
+	"kamrankamilli/xmpp/jid"
+	"kamrankamilli/xmpp/pubsub"
+	"kamrankamilli/xmpp/stanza"
 )
 
 // Fetch requests all bookmarks from the server and returns an iterator over the

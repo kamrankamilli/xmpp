@@ -11,11 +11,11 @@ import (
 	"sync"
 
 	"mellium.im/xmlstream"
-	"mellium.im/xmpp"
-	"mellium.im/xmpp/internal/attr"
-	"mellium.im/xmpp/jid"
-	"mellium.im/xmpp/mux"
-	"mellium.im/xmpp/stanza"
+	"kamrankamilli/xmpp"
+	"kamrankamilli/xmpp/internal/attr"
+	"kamrankamilli/xmpp/jid"
+	"kamrankamilli/xmpp/mux"
+	"kamrankamilli/xmpp/stanza"
 )
 
 // Handle returns an option that registers a Handler for incoming history query

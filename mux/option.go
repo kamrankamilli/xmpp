@@ -7,9 +7,9 @@ package mux
 import (
 	"encoding/xml"
 
-	"mellium.im/xmpp"
-	"mellium.im/xmpp/disco/info"
-	"mellium.im/xmpp/stanza"
+	"kamrankamilli/xmpp"
+	"kamrankamilli/xmpp/disco/info"
+	"kamrankamilli/xmpp/stanza"
 )
 
 // Option configures a ServeMux.

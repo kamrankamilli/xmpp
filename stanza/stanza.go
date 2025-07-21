@@ -8,8 +8,8 @@ import (
 	"encoding/xml"
 
 	"mellium.im/xmlstream"
-	"mellium.im/xmpp/internal/attr"
-	"mellium.im/xmpp/jid"
+	"kamrankamilli/xmpp/internal/attr"
+	"kamrankamilli/xmpp/jid"
 )
 
 // Namespaces used by this package, provided as a convenience.

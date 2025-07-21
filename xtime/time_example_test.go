@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"time"
 
-	"mellium.im/xmpp/xtime"
+	"kamrankamilli/xmpp/xtime"
 )
 
 func ExampleTime() {

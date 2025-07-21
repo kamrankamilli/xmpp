@@ -10,8 +10,8 @@ import (
 	"os"
 	"strings"
 
-	"mellium.im/xmpp/jid"
-	"mellium.im/xmpp/stanza"
+	"kamrankamilli/xmpp/jid"
+	"kamrankamilli/xmpp/stanza"
 )
 
 func ExampleError_MarshalXML() {

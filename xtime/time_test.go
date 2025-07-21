@@ -11,10 +11,10 @@ import (
 	"time"
 
 	"mellium.im/xmlstream"
-	"mellium.im/xmpp/internal/xmpptest"
-	"mellium.im/xmpp/mux"
-	"mellium.im/xmpp/stanza"
-	"mellium.im/xmpp/xtime"
+	"kamrankamilli/xmpp/internal/xmpptest"
+	"kamrankamilli/xmpp/mux"
+	"kamrankamilli/xmpp/stanza"
+	"kamrankamilli/xmpp/xtime"
 )
 
 var (

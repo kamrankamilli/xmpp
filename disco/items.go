@@ -10,10 +10,10 @@ import (
 	"errors"
 
 	"mellium.im/xmlstream"
-	"mellium.im/xmpp"
-	"mellium.im/xmpp/disco/items"
-	"mellium.im/xmpp/paging"
-	"mellium.im/xmpp/stanza"
+	"kamrankamilli/xmpp"
+	"kamrankamilli/xmpp/disco/items"
+	"kamrankamilli/xmpp/paging"
+	"kamrankamilli/xmpp/stanza"
 )
 
 const (

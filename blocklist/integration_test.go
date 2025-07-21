@@ -17,12 +17,12 @@ import (
 
 	"mellium.im/sasl"
 	"mellium.im/xmlstream"
-	"mellium.im/xmpp"
-	"mellium.im/xmpp/blocklist"
-	"mellium.im/xmpp/internal/integration"
-	"mellium.im/xmpp/internal/integration/prosody"
-	"mellium.im/xmpp/jid"
-	"mellium.im/xmpp/stanza"
+	"kamrankamilli/xmpp"
+	"kamrankamilli/xmpp/blocklist"
+	"kamrankamilli/xmpp/internal/integration"
+	"kamrankamilli/xmpp/internal/integration/prosody"
+	"kamrankamilli/xmpp/jid"
+	"kamrankamilli/xmpp/stanza"
 )
 
 //go:embed mod_integration_report.lua

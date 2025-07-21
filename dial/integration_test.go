@@ -15,8 +15,8 @@ import (
 	"testing"
 	"time"
 
-	"mellium.im/xmpp/dial"
-	"mellium.im/xmpp/jid"
+	"kamrankamilli/xmpp/dial"
+	"kamrankamilli/xmpp/jid"
 )
 
 var dialTests = []struct {

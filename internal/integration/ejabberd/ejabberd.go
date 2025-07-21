@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // Package ejabberd facilitates integration testing against Ejabberd.
-package ejabberd // import "mellium.im/xmpp/internal/integration/ejabberd"
+package ejabberd // import "kamrankamilli/xmpp/internal/integration/ejabberd"
 
 import (
 	"context"
@@ -14,8 +14,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"mellium.im/xmpp/internal/integration"
-	"mellium.im/xmpp/jid"
+	"kamrankamilli/xmpp/internal/integration"
+	"kamrankamilli/xmpp/jid"
 )
 
 const (

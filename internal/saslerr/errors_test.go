@@ -9,8 +9,8 @@ import (
 	"testing"
 
 	"mellium.im/xmlstream"
-	"mellium.im/xmpp/internal/saslerr"
-	"mellium.im/xmpp/internal/xmpptest"
+	"kamrankamilli/xmpp/internal/saslerr"
+	"kamrankamilli/xmpp/internal/xmpptest"
 )
 
 // Compile time tests that interfaces are satisfied

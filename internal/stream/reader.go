@@ -10,7 +10,7 @@ import (
 	"errors"
 	"io"
 
-	"mellium.im/xmpp/stream"
+	"kamrankamilli/xmpp/stream"
 )
 
 // Errors related to stream handling

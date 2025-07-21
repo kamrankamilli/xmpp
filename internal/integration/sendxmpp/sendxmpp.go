@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // Package sendxmpp facilitates integration testing with sendxmpp.
-package sendxmpp // import "mellium.im/xmpp/internal/integration/sendxmpp"
+package sendxmpp // import "kamrankamilli/xmpp/internal/integration/sendxmpp"
 
 import (
 	"context"
@@ -12,8 +12,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"mellium.im/xmpp/internal/integration"
-	"mellium.im/xmpp/jid"
+	"kamrankamilli/xmpp/internal/integration"
+	"kamrankamilli/xmpp/jid"
 )
 
 const (

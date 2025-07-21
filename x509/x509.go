@@ -9,7 +9,7 @@
 // license that can be found in the LICENSE.GO file.
 
 // Package x509 parses X.509-encoded keys and certificates.
-package x509 // import "mellium.im/xmpp/x509"
+package x509 // import "kamrankamilli/xmpp/x509"
 
 import (
 	"crypto/x509"

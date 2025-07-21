@@ -9,10 +9,10 @@ import (
 	"encoding/xml"
 
 	"mellium.im/xmlstream"
-	"mellium.im/xmpp"
-	"mellium.im/xmpp/crypto"
-	"mellium.im/xmpp/mux"
-	"mellium.im/xmpp/stanza"
+	"kamrankamilli/xmpp"
+	"kamrankamilli/xmpp/crypto"
+	"kamrankamilli/xmpp/mux"
+	"kamrankamilli/xmpp/stanza"
 )
 
 // HandleCaps calls f for each incoming presence containing entity capabilities

@@ -8,11 +8,11 @@ import (
 	"encoding/xml"
 
 	"mellium.im/xmlstream"
-	"mellium.im/xmpp/disco/info"
-	"mellium.im/xmpp/disco/items"
-	"mellium.im/xmpp/form"
-	"mellium.im/xmpp/mux"
-	"mellium.im/xmpp/stanza"
+	"kamrankamilli/xmpp/disco/info"
+	"kamrankamilli/xmpp/disco/items"
+	"kamrankamilli/xmpp/form"
+	"kamrankamilli/xmpp/mux"
+	"kamrankamilli/xmpp/stanza"
 )
 
 // Handle returns an option that configures a multiplexer to handle service

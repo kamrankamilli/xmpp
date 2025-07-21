@@ -11,12 +11,12 @@ import (
 	"testing"
 
 	"mellium.im/xmlstream"
-	"mellium.im/xmpp/disco/info"
-	"mellium.im/xmpp/internal/xmpptest"
-	"mellium.im/xmpp/jid"
-	"mellium.im/xmpp/mux"
-	"mellium.im/xmpp/ping"
-	"mellium.im/xmpp/stanza"
+	"kamrankamilli/xmpp/disco/info"
+	"kamrankamilli/xmpp/internal/xmpptest"
+	"kamrankamilli/xmpp/jid"
+	"kamrankamilli/xmpp/mux"
+	"kamrankamilli/xmpp/ping"
+	"kamrankamilli/xmpp/stanza"
 )
 
 var (

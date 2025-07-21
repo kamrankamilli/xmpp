@@ -5,7 +5,7 @@
 //go:generate go run ../internal/genfeature
 
 // Package paging implements result set management.
-package paging // import "mellium.im/xmpp/paging"
+package paging // import "kamrankamilli/xmpp/paging"
 
 import (
 	"encoding/xml"

@@ -7,10 +7,10 @@ package commands
 import (
 	"context"
 
-	"mellium.im/xmpp"
-	"mellium.im/xmpp/disco"
-	"mellium.im/xmpp/jid"
-	"mellium.im/xmpp/stanza"
+	"kamrankamilli/xmpp"
+	"kamrankamilli/xmpp/disco"
+	"kamrankamilli/xmpp/jid"
+	"kamrankamilli/xmpp/stanza"
 )
 
 // Iter is an iterator over Command's.

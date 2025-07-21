@@ -16,9 +16,9 @@ import (
 
 	"golang.org/x/net/websocket"
 
-	"mellium.im/xmpp"
-	"mellium.im/xmpp/internal/discover"
-	"mellium.im/xmpp/jid"
+	"kamrankamilli/xmpp"
+	"kamrankamilli/xmpp/internal/discover"
+	"kamrankamilli/xmpp/jid"
 )
 
 // NewSession establishes an XMPP session from the perspective of the initiating

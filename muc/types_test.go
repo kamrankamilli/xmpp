@@ -7,7 +7,7 @@ package muc_test
 import (
 	"encoding/xml"
 
-	"mellium.im/xmpp/muc"
+	"kamrankamilli/xmpp/muc"
 )
 
 var (

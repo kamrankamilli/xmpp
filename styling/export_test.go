@@ -20,7 +20,7 @@ import (
 	"os"
 	"testing"
 
-	"mellium.im/xmpp/styling"
+	"kamrankamilli/xmpp/styling"
 )
 
 type jsonStyle struct {

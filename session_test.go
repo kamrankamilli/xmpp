@@ -18,12 +18,12 @@ import (
 	"testing"
 
 	"mellium.im/xmlstream"
-	"mellium.im/xmpp"
-	intstream "mellium.im/xmpp/internal/stream"
-	"mellium.im/xmpp/internal/xmpptest"
-	"mellium.im/xmpp/jid"
-	"mellium.im/xmpp/stanza"
-	"mellium.im/xmpp/stream"
+	"kamrankamilli/xmpp"
+	intstream "kamrankamilli/xmpp/internal/stream"
+	"kamrankamilli/xmpp/internal/xmpptest"
+	"kamrankamilli/xmpp/jid"
+	"kamrankamilli/xmpp/stanza"
+	"kamrankamilli/xmpp/stream"
 )
 
 var _ fmt.Stringer = xmpp.SessionState(0)

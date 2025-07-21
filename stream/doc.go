@@ -6,8 +6,8 @@
 //
 // The various stream errors defined by RFC 6120 § 4.9 are included as a
 // convenience, but most people will want to use the facilities of the
-// mellium.im/xmpp package and not create stream errors directly.
-package stream // import "mellium.im/xmpp/stream"
+// kamrankamilli/xmpp package and not create stream errors directly.
+package stream // import "kamrankamilli/xmpp/stream"
 
 // Namespaces used by XMPP streams and stream errors, provided as a convenience.
 const (

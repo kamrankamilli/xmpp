@@ -5,17 +5,17 @@
 //go:generate go run ../internal/genfeature
 
 // Package version queries a remote entity for software version info.
-package version // import "mellium.im/xmpp/version"
+package version // import "kamrankamilli/xmpp/version"
 
 import (
 	"context"
 	"encoding/xml"
 
 	"mellium.im/xmlstream"
-	"mellium.im/xmpp"
-	"mellium.im/xmpp/jid"
-	"mellium.im/xmpp/mux"
-	"mellium.im/xmpp/stanza"
+	"kamrankamilli/xmpp"
+	"kamrankamilli/xmpp/jid"
+	"kamrankamilli/xmpp/mux"
+	"kamrankamilli/xmpp/stanza"
 )
 
 const (

@@ -6,7 +6,7 @@
 //go:generate go run ../internal/genfeature -filename features.go -receiver "h *discoHandler" -vars Feature:NSInfo
 
 // Package disco implements service discovery.
-package disco // import "mellium.im/xmpp/disco"
+package disco // import "kamrankamilli/xmpp/disco"
 
 // Namespaces used by this package.
 const (

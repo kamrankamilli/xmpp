@@ -4,7 +4,7 @@
 
 // Package component is used to establish XEP-0114: Jabber Component Protocol
 // connections.
-package component // import "mellium.im/xmpp/component"
+package component // import "kamrankamilli/xmpp/component"
 
 import (
 	"context"
@@ -15,9 +15,9 @@ import (
 	"fmt"
 	"io"
 
-	"mellium.im/xmpp"
-	"mellium.im/xmpp/jid"
-	"mellium.im/xmpp/stream"
+	"kamrankamilli/xmpp"
+	"kamrankamilli/xmpp/jid"
+	"kamrankamilli/xmpp/stream"
 )
 
 // A list of namespaces used by this package, provided as a convenience.

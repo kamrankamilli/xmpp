@@ -10,7 +10,7 @@ import (
 	"errors"
 
 	"mellium.im/xmlstream"
-	"mellium.im/xmpp/jid"
+	"kamrankamilli/xmpp/jid"
 )
 
 // A Key is an opaque collection of bytes (the actual key format will depend on

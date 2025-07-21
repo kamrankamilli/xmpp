@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // Package jackal facilitates integration testing against Jackal.
-package jackal // import "mellium.im/xmpp/internal/integration/jackal"
+package jackal // import "kamrankamilli/xmpp/internal/integration/jackal"
 
 import (
 	"context"
@@ -15,8 +15,8 @@ import (
 	"strconv"
 	"testing"
 
-	"mellium.im/xmpp/internal/integration"
-	"mellium.im/xmpp/jid"
+	"kamrankamilli/xmpp/internal/integration"
+	"kamrankamilli/xmpp/jid"
 )
 
 const (

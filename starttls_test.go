@@ -14,9 +14,9 @@ import (
 	"strings"
 	"testing"
 
-	"mellium.im/xmpp"
-	"mellium.im/xmpp/internal/ns"
-	"mellium.im/xmpp/internal/xmpptest"
+	"kamrankamilli/xmpp"
+	"kamrankamilli/xmpp/internal/ns"
+	"kamrankamilli/xmpp/internal/xmpptest"
 )
 
 // There is no room for variation on the starttls feature negotiation, so step

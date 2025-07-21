@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // Package stream contains internal stream parsing and handling behavior.
-package stream // import "mellium.im/xmpp/internal/stream"
+package stream // import "kamrankamilli/xmpp/internal/stream"
 
 import (
 	"bufio"
@@ -13,9 +13,9 @@ import (
 	"io"
 
 	"mellium.im/xmlstream"
-	"mellium.im/xmpp/internal/decl"
-	"mellium.im/xmpp/stanza"
-	"mellium.im/xmpp/stream"
+	"kamrankamilli/xmpp/internal/decl"
+	"kamrankamilli/xmpp/stanza"
+	"kamrankamilli/xmpp/stream"
 )
 
 const wsNamespace = "urn:ietf:params:xml:ns:xmpp-framing"

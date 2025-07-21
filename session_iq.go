@@ -11,9 +11,9 @@ import (
 	"io"
 
 	"mellium.im/xmlstream"
-	"mellium.im/xmpp/internal/attr"
-	"mellium.im/xmpp/internal/marshal"
-	"mellium.im/xmpp/stanza"
+	"kamrankamilli/xmpp/internal/attr"
+	"kamrankamilli/xmpp/internal/marshal"
+	"kamrankamilli/xmpp/stanza"
 )
 
 // SendIQ is like Send except that it returns an error if the first token read

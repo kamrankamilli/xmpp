@@ -4,7 +4,7 @@
 
 // Package file contains shared functionality between various file upload
 // mechanisms.
-package file // import "mellium.im/xmpp/file"
+package file // import "kamrankamilli/xmpp/file"
 
 import (
 	"encoding/xml"
@@ -12,7 +12,7 @@ import (
 	"time"
 
 	"mellium.im/xmlstream"
-	"mellium.im/xmpp/crypto"
+	"kamrankamilli/xmpp/crypto"
 )
 
 const (

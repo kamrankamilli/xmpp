@@ -5,7 +5,7 @@
 //go:generate go run -tags=tools golang.org/x/tools/cmd/stringer -type=CVD
 
 // Package color implements XEP-0392: Consistent Color Generation v0.4.
-package color // import "mellium.im/xmpp/color"
+package color // import "kamrankamilli/xmpp/color"
 
 import (
 	/* #nosec */

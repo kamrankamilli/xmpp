@@ -10,8 +10,8 @@ import (
 	"testing"
 
 	"mellium.im/xmlstream"
-	"mellium.im/xmpp/internal/decl"
-	"mellium.im/xmpp/internal/xmpptest"
+	"kamrankamilli/xmpp/internal/decl"
+	"kamrankamilli/xmpp/internal/xmpptest"
 )
 
 var skipTests = []xmpptest.TransformerTestCase{

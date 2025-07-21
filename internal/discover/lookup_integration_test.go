@@ -13,8 +13,8 @@ import (
 	"strconv"
 	"testing"
 
-	"mellium.im/xmpp/internal/discover"
-	"mellium.im/xmpp/jid"
+	"kamrankamilli/xmpp/internal/discover"
+	"kamrankamilli/xmpp/jid"
 )
 
 var testConvJID = jid.MustParse("sam@conversations.im")

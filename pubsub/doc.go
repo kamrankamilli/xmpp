@@ -6,7 +6,7 @@
 //go:generate go run -tags=tools golang.org/x/tools/cmd/stringer -output=string.go -type=SubType,Condition,Feature -linecomment
 
 // Package pubsub implements data storage using a publish–subscribe pattern.
-package pubsub // import "mellium.im/xmpp/pubsub"
+package pubsub // import "kamrankamilli/xmpp/pubsub"
 
 // Various namespaces used by this package, provided as a convenience.
 const (

@@ -8,8 +8,8 @@ import (
 	"encoding/xml"
 
 	"mellium.im/xmlstream"
-	"mellium.im/xmpp/internal/ns"
-	"mellium.im/xmpp/jid"
+	"kamrankamilli/xmpp/internal/ns"
+	"kamrankamilli/xmpp/jid"
 )
 
 // IQ ("Information Query") is used as a general request response mechanism.

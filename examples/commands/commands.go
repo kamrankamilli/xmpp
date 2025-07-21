@@ -18,11 +18,11 @@ import (
 	"text/tabwriter"
 
 	"mellium.im/sasl"
-	"mellium.im/xmpp"
-	"mellium.im/xmpp/commands"
-	"mellium.im/xmpp/form"
-	"mellium.im/xmpp/jid"
-	"mellium.im/xmpp/oob"
+	"kamrankamilli/xmpp"
+	"kamrankamilli/xmpp/commands"
+	"kamrankamilli/xmpp/form"
+	"kamrankamilli/xmpp/jid"
+	"kamrankamilli/xmpp/oob"
 
 	"github.com/rivo/tview"
 )

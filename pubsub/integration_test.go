@@ -16,11 +16,11 @@ import (
 
 	"mellium.im/sasl"
 	"mellium.im/xmlstream"
-	"mellium.im/xmpp"
-	"mellium.im/xmpp/internal/integration"
-	"mellium.im/xmpp/internal/integration/ejabberd"
-	"mellium.im/xmpp/internal/integration/prosody"
-	"mellium.im/xmpp/pubsub"
+	"kamrankamilli/xmpp"
+	"kamrankamilli/xmpp/internal/integration"
+	"kamrankamilli/xmpp/internal/integration/ejabberd"
+	"kamrankamilli/xmpp/internal/integration/prosody"
+	"kamrankamilli/xmpp/pubsub"
 )
 
 func TestIntegrationPubFetch(t *testing.T) {

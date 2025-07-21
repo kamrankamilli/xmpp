@@ -8,7 +8,7 @@ import (
 	"encoding/xml"
 
 	"mellium.im/xmlstream"
-	"mellium.im/xmpp/stanza"
+	"kamrankamilli/xmpp/stanza"
 )
 
 // IQHandler responds to IQ stanzas.

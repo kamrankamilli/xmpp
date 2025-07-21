@@ -11,8 +11,8 @@ import (
 	"strconv"
 	"testing"
 
-	"mellium.im/xmpp/jid"
-	"mellium.im/xmpp/uri"
+	"kamrankamilli/xmpp/jid"
+	"kamrankamilli/xmpp/uri"
 )
 
 var parseTests = [...]struct {

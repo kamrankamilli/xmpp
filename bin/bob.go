@@ -6,7 +6,7 @@
 //
 // Unlike Jingle File Transfer or In-Band Bytestreams which are designed for
 // larger blobs of data, bits-of-binary does not require session negotiation.
-package bin // import "mellium.im/xmpp/bin"
+package bin // import "kamrankamilli/xmpp/bin"
 
 //go:generate go run ../internal/genfeature -receiver "Handler"
 
@@ -20,12 +20,12 @@ import (
 	"time"
 
 	"mellium.im/xmlstream"
-	"mellium.im/xmpp"
-	"mellium.im/xmpp/crypto"
-	"mellium.im/xmpp/internal/cid"
-	"mellium.im/xmpp/jid"
-	"mellium.im/xmpp/mux"
-	"mellium.im/xmpp/stanza"
+	"kamrankamilli/xmpp"
+	"kamrankamilli/xmpp/crypto"
+	"kamrankamilli/xmpp/internal/cid"
+	"kamrankamilli/xmpp/jid"
+	"kamrankamilli/xmpp/mux"
+	"kamrankamilli/xmpp/stanza"
 )
 
 // NS is the namespace implemented by this package.

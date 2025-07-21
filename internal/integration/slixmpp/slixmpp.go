@@ -34,7 +34,7 @@
 //
 // For more information see slixmpp_client.py, python/xmpptest.py, and the
 // slixmpp documentation.
-package slixmpp // import "mellium.im/xmpp/internal/integration/slixmpp"
+package slixmpp // import "kamrankamilli/xmpp/internal/integration/slixmpp"
 
 import (
 	"context"
@@ -43,8 +43,8 @@ import (
 	"testing"
 	"text/template"
 
-	"mellium.im/xmpp/internal/integration"
-	"mellium.im/xmpp/internal/integration/python"
+	"kamrankamilli/xmpp/internal/integration"
+	"kamrankamilli/xmpp/internal/integration/python"
 )
 
 const (

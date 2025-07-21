@@ -15,7 +15,7 @@ import (
 	"testing"
 	"time"
 
-	"mellium.im/xmpp/jid"
+	"kamrankamilli/xmpp/jid"
 )
 
 var (

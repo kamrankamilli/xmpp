@@ -12,10 +12,10 @@ import (
 	"strings"
 	"testing"
 
-	"mellium.im/xmpp"
-	"mellium.im/xmpp/internal/ns"
-	"mellium.im/xmpp/internal/xmpptest"
-	"mellium.im/xmpp/jid"
+	"kamrankamilli/xmpp"
+	"kamrankamilli/xmpp/internal/ns"
+	"kamrankamilli/xmpp/internal/xmpptest"
+	"kamrankamilli/xmpp/jid"
 )
 
 func TestBindList(t *testing.T) {

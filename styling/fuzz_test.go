@@ -10,7 +10,7 @@ import (
 	"io"
 	"testing"
 
-	"mellium.im/xmpp/styling"
+	"kamrankamilli/xmpp/styling"
 )
 
 func FuzzParseDocument(f *testing.F) {

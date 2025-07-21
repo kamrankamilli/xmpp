@@ -37,7 +37,7 @@
 //	```an optional tag may go here.
 //	Lines of pre-formatted text go here.
 //	```
-package styling // import "mellium.im/xmpp/styling"
+package styling // import "kamrankamilli/xmpp/styling"
 
 import (
 	"bufio"

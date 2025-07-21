@@ -8,8 +8,8 @@ import (
 	"encoding/xml"
 
 	"mellium.im/xmlstream"
-	"mellium.im/xmpp/internal/ns"
-	"mellium.im/xmpp/jid"
+	"kamrankamilli/xmpp/internal/ns"
+	"kamrankamilli/xmpp/jid"
 )
 
 // Presence is an XMPP stanza that is used as an indication that an entity is

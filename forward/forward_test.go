@@ -12,9 +12,9 @@ import (
 	"time"
 
 	"mellium.im/xmlstream"
-	"mellium.im/xmpp/delay"
-	"mellium.im/xmpp/forward"
-	"mellium.im/xmpp/stanza"
+	"kamrankamilli/xmpp/delay"
+	"kamrankamilli/xmpp/forward"
+	"kamrankamilli/xmpp/stanza"
 )
 
 func TestWrap(t *testing.T) {

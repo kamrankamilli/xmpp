@@ -10,7 +10,7 @@ import (
 	"net"
 
 	"mellium.im/xmlstream"
-	"mellium.im/xmpp/internal/ns"
+	"kamrankamilli/xmpp/internal/ns"
 )
 
 // A list of stream errors defined in RFC 6120 §4.9.3

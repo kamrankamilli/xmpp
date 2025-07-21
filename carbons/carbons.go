@@ -5,7 +5,7 @@
 //go:generate go run ../internal/genfeature -receiver "h Handler"
 
 // Package carbons implements carbon copying messages to all interested clients.
-package carbons // import "mellium.im/xmpp/carbons"
+package carbons // import "kamrankamilli/xmpp/carbons"
 
 import (
 	"context"
@@ -13,10 +13,10 @@ import (
 	"fmt"
 
 	"mellium.im/xmlstream"
-	"mellium.im/xmpp"
-	"mellium.im/xmpp/delay"
-	"mellium.im/xmpp/forward"
-	"mellium.im/xmpp/stanza"
+	"kamrankamilli/xmpp"
+	"kamrankamilli/xmpp/delay"
+	"kamrankamilli/xmpp/forward"
+	"kamrankamilli/xmpp/stanza"
 )
 
 // Namespaces used by this package, provided as a convenience.

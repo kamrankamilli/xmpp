@@ -10,7 +10,7 @@ import (
 	"encoding/xml"
 	"errors"
 
-	"mellium.im/xmpp/jid"
+	"kamrankamilli/xmpp/jid"
 )
 
 // Item represents a user in the channel.

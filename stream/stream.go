@@ -7,7 +7,7 @@ package stream
 import (
 	"encoding/xml"
 
-	"mellium.im/xmpp/jid"
+	"kamrankamilli/xmpp/jid"
 )
 
 // Info contains metadata extracted from a stream start token.

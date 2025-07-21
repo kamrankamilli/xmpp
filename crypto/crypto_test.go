@@ -11,8 +11,8 @@ import (
 	"strconv"
 	"testing"
 
-	"mellium.im/xmpp/crypto"
-	"mellium.im/xmpp/internal/xmpptest"
+	"kamrankamilli/xmpp/crypto"
+	"kamrankamilli/xmpp/internal/xmpptest"
 )
 
 var _ stdcrypto.SignerOpts = crypto.SHA256

@@ -8,9 +8,9 @@ import (
 	"context"
 	"io"
 
-	"mellium.im/xmpp"
-	"mellium.im/xmpp/internal/wskey"
-	"mellium.im/xmpp/stream"
+	"kamrankamilli/xmpp"
+	"kamrankamilli/xmpp/internal/wskey"
+	"kamrankamilli/xmpp/stream"
 )
 
 // Negotiator is like xmpp.NewNegotiator except that it uses the websocket

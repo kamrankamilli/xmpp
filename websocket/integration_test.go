@@ -13,12 +13,12 @@ import (
 	"testing"
 
 	"mellium.im/sasl"
-	"mellium.im/xmpp"
-	"mellium.im/xmpp/internal/integration"
-	"mellium.im/xmpp/internal/integration/ejabberd"
-	"mellium.im/xmpp/internal/integration/prosody"
-	"mellium.im/xmpp/ping"
-	"mellium.im/xmpp/websocket"
+	"kamrankamilli/xmpp"
+	"kamrankamilli/xmpp/internal/integration"
+	"kamrankamilli/xmpp/internal/integration/ejabberd"
+	"kamrankamilli/xmpp/internal/integration/prosody"
+	"kamrankamilli/xmpp/ping"
+	"kamrankamilli/xmpp/websocket"
 )
 
 func TestIntegrationDialWebSocket(t *testing.T) {

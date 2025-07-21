@@ -5,4 +5,4 @@
 //go:generate go run ../internal/genfeature
 
 // Package form implements sending and submitting data forms.
-package form // import "mellium.im/xmpp/form"
+package form // import "kamrankamilli/xmpp/form"

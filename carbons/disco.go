@@ -3,7 +3,7 @@
 package carbons
 
 import (
-	"mellium.im/xmpp/disco/info"
+	"kamrankamilli/xmpp/disco/info"
 )
 
 // A list of service discovery features that are supported by this package.

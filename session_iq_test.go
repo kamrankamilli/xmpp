@@ -10,9 +10,9 @@ import (
 	"testing"
 
 	"mellium.im/xmlstream"
-	"mellium.im/xmpp/internal/xmpptest"
-	"mellium.im/xmpp/ping"
-	"mellium.im/xmpp/stanza"
+	"kamrankamilli/xmpp/internal/xmpptest"
+	"kamrankamilli/xmpp/ping"
+	"kamrankamilli/xmpp/stanza"
 )
 
 func TestResponseToTimedOutIQ(t *testing.T) {

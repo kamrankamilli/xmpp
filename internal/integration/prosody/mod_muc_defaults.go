@@ -8,7 +8,7 @@ import (
 	_ "embed"
 	"io"
 
-	"mellium.im/xmpp/internal/integration"
+	"kamrankamilli/xmpp/internal/integration"
 )
 
 //go:embed mod_muc_defaults.lua

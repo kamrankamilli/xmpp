@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"text/template"
 
-	"mellium.im/xmpp/jid"
+	"kamrankamilli/xmpp/jid"
 )
 
 // Config contains options that can be written to the config file.

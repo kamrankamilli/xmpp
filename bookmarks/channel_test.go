@@ -7,8 +7,8 @@ package bookmarks_test
 import (
 	"testing"
 
-	"mellium.im/xmpp/bookmarks"
-	"mellium.im/xmpp/internal/xmpptest"
+	"kamrankamilli/xmpp/bookmarks"
+	"kamrankamilli/xmpp/internal/xmpptest"
 )
 
 var marshalTestCases = []xmpptest.EncodingTestCase{

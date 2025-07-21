@@ -15,11 +15,11 @@ import (
 
 	"mellium.im/sasl"
 	"mellium.im/xmlstream"
-	"mellium.im/xmpp"
-	"mellium.im/xmpp/dial"
-	"mellium.im/xmpp/jid"
-	"mellium.im/xmpp/stanza"
-	"mellium.im/xmpp/stream"
+	"kamrankamilli/xmpp"
+	"kamrankamilli/xmpp/dial"
+	"kamrankamilli/xmpp/jid"
+	"kamrankamilli/xmpp/stanza"
+	"kamrankamilli/xmpp/stream"
 )
 
 // MessageBody is a message stanza that contains a body. It is normally used for

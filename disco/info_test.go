@@ -9,8 +9,8 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"mellium.im/xmpp/disco"
-	"mellium.im/xmpp/disco/info"
+	"kamrankamilli/xmpp/disco"
+	"kamrankamilli/xmpp/disco/info"
 )
 
 func TestMarshalQuery(t *testing.T) {

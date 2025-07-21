@@ -9,10 +9,10 @@ import (
 	"testing"
 
 	"mellium.im/xmlstream"
-	"mellium.im/xmpp/disco"
-	"mellium.im/xmpp/disco/items"
-	"mellium.im/xmpp/internal/xmpptest"
-	"mellium.im/xmpp/jid"
+	"kamrankamilli/xmpp/disco"
+	"kamrankamilli/xmpp/disco/items"
+	"kamrankamilli/xmpp/internal/xmpptest"
+	"kamrankamilli/xmpp/jid"
 )
 
 var (

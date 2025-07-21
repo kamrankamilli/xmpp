@@ -10,7 +10,7 @@ package jid_test
 import (
 	"testing"
 
-	"mellium.im/xmpp/jid"
+	"kamrankamilli/xmpp/jid"
 )
 
 func FuzzParseJID(f *testing.F) {

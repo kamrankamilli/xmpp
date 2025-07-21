@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // Package mcabber facilitates integration testing against Mcabber.
-package mcabber // import "mellium.im/xmpp/internal/integration/mcabber"
+package mcabber // import "kamrankamilli/xmpp/internal/integration/mcabber"
 
 import (
 	"bufio"
@@ -17,8 +17,8 @@ import (
 
 	"golang.org/x/sys/unix"
 
-	"mellium.im/xmpp/internal/integration"
-	"mellium.im/xmpp/jid"
+	"kamrankamilli/xmpp/internal/integration"
+	"kamrankamilli/xmpp/jid"
 )
 
 const (

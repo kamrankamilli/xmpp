@@ -9,12 +9,12 @@ import (
 	"fmt"
 	"io"
 
-	"mellium.im/xmpp/internal/attr"
-	intstream "mellium.im/xmpp/internal/stream"
-	"mellium.im/xmpp/internal/wskey"
-	"mellium.im/xmpp/jid"
-	"mellium.im/xmpp/stanza"
-	"mellium.im/xmpp/stream"
+	"kamrankamilli/xmpp/internal/attr"
+	intstream "kamrankamilli/xmpp/internal/stream"
+	"kamrankamilli/xmpp/internal/wskey"
+	"kamrankamilli/xmpp/jid"
+	"kamrankamilli/xmpp/stanza"
+	"kamrankamilli/xmpp/stream"
 )
 
 // Negotiator is a function that can be passed to NewSession to perform custom

@@ -5,7 +5,7 @@
 //go:generate go run ../internal/genfeature -receiver "h *Handler"
 
 // Package receipts implements XEP-0184: Message Delivery Receipts.
-package receipts // import "mellium.im/xmpp/receipts"
+package receipts // import "kamrankamilli/xmpp/receipts"
 
 import (
 	"context"
@@ -15,10 +15,10 @@ import (
 	"sync"
 
 	"mellium.im/xmlstream"
-	"mellium.im/xmpp"
-	"mellium.im/xmpp/internal/attr"
-	"mellium.im/xmpp/mux"
-	"mellium.im/xmpp/stanza"
+	"kamrankamilli/xmpp"
+	"kamrankamilli/xmpp/internal/attr"
+	"kamrankamilli/xmpp/mux"
+	"kamrankamilli/xmpp/stanza"
 )
 
 const (

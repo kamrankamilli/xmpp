@@ -12,12 +12,12 @@ import (
 	"testing"
 
 	"mellium.im/xmlstream"
-	"mellium.im/xmpp/crypto"
-	"mellium.im/xmpp/disco"
-	"mellium.im/xmpp/disco/info"
-	"mellium.im/xmpp/form"
-	"mellium.im/xmpp/internal/xmpptest"
-	"mellium.im/xmpp/muc"
+	"kamrankamilli/xmpp/crypto"
+	"kamrankamilli/xmpp/disco"
+	"kamrankamilli/xmpp/disco/info"
+	"kamrankamilli/xmpp/form"
+	"kamrankamilli/xmpp/internal/xmpptest"
+	"kamrankamilli/xmpp/muc"
 )
 
 var verificationTestCases = [...]struct {

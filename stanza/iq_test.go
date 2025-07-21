@@ -14,10 +14,10 @@ import (
 	"testing"
 
 	"mellium.im/xmlstream"
-	"mellium.im/xmpp/internal/attr"
-	"mellium.im/xmpp/internal/ns"
-	"mellium.im/xmpp/jid"
-	"mellium.im/xmpp/stanza"
+	"kamrankamilli/xmpp/internal/attr"
+	"kamrankamilli/xmpp/internal/ns"
+	"kamrankamilli/xmpp/jid"
+	"kamrankamilli/xmpp/stanza"
 )
 
 var _ encoding.TextMarshaler = stanza.IQType("")

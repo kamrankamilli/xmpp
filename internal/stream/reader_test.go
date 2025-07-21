@@ -14,9 +14,9 @@ import (
 	"testing"
 
 	"mellium.im/xmlstream"
-	"mellium.im/xmpp/internal/stream"
-	"mellium.im/xmpp/internal/xmpptest"
-	streamerr "mellium.im/xmpp/stream"
+	"kamrankamilli/xmpp/internal/stream"
+	"kamrankamilli/xmpp/internal/xmpptest"
+	streamerr "kamrankamilli/xmpp/stream"
 )
 
 var readerTestCases = [...]struct {

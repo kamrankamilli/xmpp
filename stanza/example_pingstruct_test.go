@@ -9,8 +9,8 @@ import (
 	"log"
 	"os"
 
-	"mellium.im/xmpp/jid"
-	"mellium.im/xmpp/stanza"
+	"kamrankamilli/xmpp/jid"
+	"kamrankamilli/xmpp/stanza"
 )
 
 // PingIQ represents a ping from XEP-0199: XMPP Ping.

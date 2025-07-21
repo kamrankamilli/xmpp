@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"testing"
 
-	xmppcolor "mellium.im/xmpp/color"
+	xmppcolor "kamrankamilli/xmpp/color"
 )
 
 var _ fmt.Stringer = xmppcolor.CVD(0)

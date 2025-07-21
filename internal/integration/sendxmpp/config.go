@@ -7,7 +7,7 @@ package sendxmpp
 import (
 	"text/template"
 
-	"mellium.im/xmpp/jid"
+	"kamrankamilli/xmpp/jid"
 )
 
 // Config contains options that can be written to a sendxmpp config file.

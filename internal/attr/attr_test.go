@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"testing"
 
-	"mellium.im/xmpp/internal/attr"
+	"kamrankamilli/xmpp/internal/attr"
 )
 
 var attrTests = [...]struct {

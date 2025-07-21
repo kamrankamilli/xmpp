@@ -5,7 +5,7 @@
 //go:generate go run ../internal/genfeature -receiver "h Handler"
 
 // Package ping implements XEP-0199: XMPP Ping.
-package ping // import "mellium.im/xmpp/ping"
+package ping // import "kamrankamilli/xmpp/ping"
 
 import (
 	"context"
@@ -13,10 +13,10 @@ import (
 	"errors"
 
 	"mellium.im/xmlstream"
-	"mellium.im/xmpp"
-	"mellium.im/xmpp/jid"
-	"mellium.im/xmpp/mux"
-	"mellium.im/xmpp/stanza"
+	"kamrankamilli/xmpp"
+	"kamrankamilli/xmpp/jid"
+	"kamrankamilli/xmpp/mux"
+	"kamrankamilli/xmpp/stanza"
 )
 
 // NS is the XML namespace used by XMPP pings. It is provided as a convenience.

@@ -10,9 +10,9 @@ import (
 	"fmt"
 
 	"mellium.im/xmlstream"
-	"mellium.im/xmpp/internal/attr"
-	"mellium.im/xmpp/internal/marshal"
-	"mellium.im/xmpp/stanza"
+	"kamrankamilli/xmpp/internal/attr"
+	"kamrankamilli/xmpp/internal/marshal"
+	"kamrankamilli/xmpp/stanza"
 )
 
 func isMessageEmptySpace(name xml.Name) bool {

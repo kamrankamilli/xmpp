@@ -12,10 +12,10 @@ import (
 	"io"
 
 	"mellium.im/xmlstream"
-	"mellium.im/xmpp/internal/decl"
-	"mellium.im/xmpp/internal/ns"
-	intstream "mellium.im/xmpp/internal/stream"
-	"mellium.im/xmpp/stream"
+	"kamrankamilli/xmpp/internal/decl"
+	"kamrankamilli/xmpp/internal/ns"
+	intstream "kamrankamilli/xmpp/internal/stream"
+	"kamrankamilli/xmpp/stream"
 )
 
 const (

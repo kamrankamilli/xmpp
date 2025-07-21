@@ -8,7 +8,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"mellium.im/xmpp/internal/xmpptest"
+	"kamrankamilli/xmpp/internal/xmpptest"
 )
 
 var marshalTestCases = []xmpptest.EncodingTestCase{

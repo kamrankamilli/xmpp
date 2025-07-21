@@ -31,7 +31,7 @@
 //
 // For more information see aioxmpp_client.py, python/xmpptest.py, and the
 // aioxmpp documentation.
-package aioxmpp // import "mellium.im/xmpp/internal/integration/aioxmpp"
+package aioxmpp // import "kamrankamilli/xmpp/internal/integration/aioxmpp"
 
 import (
 	"context"
@@ -40,8 +40,8 @@ import (
 	"testing"
 	"text/template"
 
-	"mellium.im/xmpp/internal/integration"
-	"mellium.im/xmpp/internal/integration/python"
+	"kamrankamilli/xmpp/internal/integration"
+	"kamrankamilli/xmpp/internal/integration/python"
 )
 
 const (

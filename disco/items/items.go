@@ -5,13 +5,13 @@
 // Package items contains service discovery items.
 //
 // These were separated out into a separate package to prevent import loops.
-package items // import "mellium.im/xmpp/disco/items"
+package items // import "kamrankamilli/xmpp/disco/items"
 
 import (
 	"encoding/xml"
 
 	"mellium.im/xmlstream"
-	"mellium.im/xmpp/jid"
+	"kamrankamilli/xmpp/jid"
 )
 
 const (

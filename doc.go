@@ -154,4 +154,4 @@
 // Packages that implement extensions to the core XMPP protocol will often
 // provide handlers that are compatible with types defined in the mux package,
 // and options for registering them with the multiplexer.
-package xmpp // import "mellium.im/xmpp"
+package xmpp // import "kamrankamilli/xmpp"

@@ -7,7 +7,7 @@ package ibb
 import (
 	"context"
 
-	"mellium.im/xmpp/jid"
+	"kamrankamilli/xmpp/jid"
 )
 
 // WaitExpect blocks until Expect has been called for the given JID/SID

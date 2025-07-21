@@ -5,7 +5,7 @@
 // Package info contains service discovery features.
 //
 // These were separated out into a separate package to prevent import loops.
-package info // import "mellium.im/xmpp/disco/info"
+package info // import "kamrankamilli/xmpp/disco/info"
 
 import (
 	"encoding/xml"

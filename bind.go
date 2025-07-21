@@ -11,11 +11,11 @@ import (
 	"io"
 
 	"mellium.im/xmlstream"
-	"mellium.im/xmpp/internal/attr"
-	"mellium.im/xmpp/internal/ns"
-	"mellium.im/xmpp/jid"
-	"mellium.im/xmpp/stanza"
-	"mellium.im/xmpp/stream"
+	"kamrankamilli/xmpp/internal/attr"
+	"kamrankamilli/xmpp/internal/ns"
+	"kamrankamilli/xmpp/jid"
+	"kamrankamilli/xmpp/stanza"
+	"kamrankamilli/xmpp/stream"
 )
 
 // BindResource is a stream feature that can be used for binding a resource

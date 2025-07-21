@@ -11,8 +11,8 @@ import (
 	"testing"
 
 	"mellium.im/xmlstream"
-	"mellium.im/xmpp/form"
-	"mellium.im/xmpp/jid"
+	"kamrankamilli/xmpp/form"
+	"kamrankamilli/xmpp/jid"
 )
 
 var (

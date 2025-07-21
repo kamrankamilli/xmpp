@@ -13,8 +13,8 @@ import (
 
 	"mellium.im/sasl"
 	"mellium.im/xmlstream"
-	"mellium.im/xmpp/internal/ns"
-	"mellium.im/xmpp/internal/saslerr"
+	"kamrankamilli/xmpp/internal/ns"
+	"kamrankamilli/xmpp/internal/saslerr"
 )
 
 var (

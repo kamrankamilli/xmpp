@@ -16,11 +16,11 @@ import (
 	"testing"
 
 	"mellium.im/sasl"
-	"mellium.im/xmpp"
-	"mellium.im/xmpp/internal/integration"
-	"mellium.im/xmpp/internal/integration/prosody"
-	"mellium.im/xmpp/jid"
-	"mellium.im/xmpp/upload"
+	"kamrankamilli/xmpp"
+	"kamrankamilli/xmpp/internal/integration"
+	"kamrankamilli/xmpp/internal/integration/prosody"
+	"kamrankamilli/xmpp/jid"
+	"kamrankamilli/xmpp/upload"
 )
 
 const uploadDomain = "upload.localhost"

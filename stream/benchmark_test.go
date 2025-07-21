@@ -8,7 +8,7 @@ import (
 	"net"
 	"testing"
 
-	"mellium.im/xmpp/stream"
+	"kamrankamilli/xmpp/stream"
 )
 
 func BenchmarkSeeOtherHostError(b *testing.B) {

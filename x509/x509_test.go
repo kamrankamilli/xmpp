@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"testing"
 
-	"mellium.im/xmpp/x509"
+	"kamrankamilli/xmpp/x509"
 )
 
 type crtTest struct {

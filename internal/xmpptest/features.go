@@ -14,7 +14,7 @@ import (
 	"strings"
 	"testing"
 
-	"mellium.im/xmpp"
+	"kamrankamilli/xmpp"
 )
 
 type testWriter struct {

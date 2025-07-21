@@ -10,7 +10,7 @@ import (
 	"testing"
 
 	"mellium.im/xmlstream"
-	"mellium.im/xmpp"
+	"kamrankamilli/xmpp"
 )
 
 var errHandlerFuncSentinal = errors.New("handler test")

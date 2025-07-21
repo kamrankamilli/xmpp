@@ -14,8 +14,8 @@ import (
 	"strings"
 	"testing"
 
-	"mellium.im/xmpp/component"
-	"mellium.im/xmpp/jid"
+	"kamrankamilli/xmpp/component"
+	"kamrankamilli/xmpp/jid"
 )
 
 const header = `<?xml version="1.0" encoding="UTF-8"?>`

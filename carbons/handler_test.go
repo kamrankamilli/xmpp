@@ -10,10 +10,10 @@ import (
 	"strings"
 	"testing"
 
-	"mellium.im/xmpp/carbons"
-	"mellium.im/xmpp/internal/xmpptest"
-	"mellium.im/xmpp/mux"
-	"mellium.im/xmpp/stanza"
+	"kamrankamilli/xmpp/carbons"
+	"kamrankamilli/xmpp/internal/xmpptest"
+	"kamrankamilli/xmpp/mux"
+	"kamrankamilli/xmpp/stanza"
 )
 
 func TestHandler(t *testing.T) {

@@ -5,7 +5,7 @@
 package bookmarks
 
 import (
-	"mellium.im/xmpp/disco/info"
+	"kamrankamilli/xmpp/disco/info"
 )
 
 // Handler can be registered against a mux to handle bookmark pushes.

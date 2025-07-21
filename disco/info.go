@@ -14,11 +14,11 @@ import (
 	"sort"
 
 	"mellium.im/xmlstream"
-	"mellium.im/xmpp"
-	"mellium.im/xmpp/disco/info"
-	"mellium.im/xmpp/form"
-	"mellium.im/xmpp/jid"
-	"mellium.im/xmpp/stanza"
+	"kamrankamilli/xmpp"
+	"kamrankamilli/xmpp/disco/info"
+	"kamrankamilli/xmpp/form"
+	"kamrankamilli/xmpp/jid"
+	"kamrankamilli/xmpp/stanza"
 )
 
 // InfoQuery is the payload of a query for a node's identities and features.

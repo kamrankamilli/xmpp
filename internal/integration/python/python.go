@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // Package python facilitates integration testing against Python scripts.
-package python // import "mellium.im/xmpp/internal/integration/python"
+package python // import "kamrankamilli/xmpp/internal/integration/python"
 
 import (
 	"context"
@@ -11,8 +11,8 @@ import (
 	"testing"
 	"text/template"
 
-	"mellium.im/xmpp/internal/attr"
-	"mellium.im/xmpp/internal/integration"
+	"kamrankamilli/xmpp/internal/attr"
+	"kamrankamilli/xmpp/internal/integration"
 )
 
 const cmdName = "python"

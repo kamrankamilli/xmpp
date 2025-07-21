@@ -8,7 +8,7 @@
 // can be used to send small files or transfer other low-bandwidth data.
 // Because IBB uses base64 encoding to send the binary data, it is extremely
 // inefficient and should only be used as a fallback or last resort.
-package ibb // import "mellium.im/xmpp/ibb"
+package ibb // import "kamrankamilli/xmpp/ibb"
 
 import (
 	"bytes"
@@ -19,11 +19,11 @@ import (
 	"sync"
 
 	"mellium.im/xmlstream"
-	"mellium.im/xmpp"
-	"mellium.im/xmpp/internal/attr"
-	"mellium.im/xmpp/jid"
-	"mellium.im/xmpp/mux"
-	"mellium.im/xmpp/stanza"
+	"kamrankamilli/xmpp"
+	"kamrankamilli/xmpp/internal/attr"
+	"kamrankamilli/xmpp/jid"
+	"kamrankamilli/xmpp/mux"
+	"kamrankamilli/xmpp/stanza"
 )
 
 // NS is the XML namespace used by IBB, provided as a convenience.

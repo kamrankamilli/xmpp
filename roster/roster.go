@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // Package roster implements contact list functionality.
-package roster // import "mellium.im/xmpp/roster"
+package roster // import "kamrankamilli/xmpp/roster"
 
 import (
 	"context"
@@ -12,10 +12,10 @@ import (
 	"io"
 
 	"mellium.im/xmlstream"
-	"mellium.im/xmpp"
-	"mellium.im/xmpp/jid"
-	"mellium.im/xmpp/mux"
-	"mellium.im/xmpp/stanza"
+	"kamrankamilli/xmpp"
+	"kamrankamilli/xmpp/jid"
+	"kamrankamilli/xmpp/mux"
+	"kamrankamilli/xmpp/stanza"
 )
 
 // Namespaces used by this package provided as a convenience.

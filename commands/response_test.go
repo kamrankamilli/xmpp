@@ -8,8 +8,8 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"mellium.im/xmpp/commands"
-	"mellium.im/xmpp/internal/xmpptest"
+	"kamrankamilli/xmpp/commands"
+	"kamrankamilli/xmpp/internal/xmpptest"
 )
 
 func TestNoteTypes(t *testing.T) {

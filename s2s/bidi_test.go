@@ -7,9 +7,9 @@ package s2s_test
 import (
 	"testing"
 
-	"mellium.im/xmpp"
-	"mellium.im/xmpp/internal/xmpptest"
-	"mellium.im/xmpp/s2s"
+	"kamrankamilli/xmpp"
+	"kamrankamilli/xmpp/internal/xmpptest"
+	"kamrankamilli/xmpp/s2s"
 )
 
 var bidiTestCases = [...]xmpptest.FeatureTestCase{

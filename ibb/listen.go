@@ -10,8 +10,8 @@ import (
 	"net"
 	"sync"
 
-	"mellium.im/xmpp"
-	"mellium.im/xmpp/jid"
+	"kamrankamilli/xmpp"
+	"kamrankamilli/xmpp/jid"
 )
 
 type expected struct {

@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // Package xmpptest provides utilities for XMPP testing.
-package xmpptest // import "mellium.im/xmpp/internal/xmpptest"
+package xmpptest // import "kamrankamilli/xmpp/internal/xmpptest"
 
 import (
 	"context"
@@ -11,11 +11,11 @@ import (
 	"net"
 	"strings"
 
-	"mellium.im/xmpp"
-	intstream "mellium.im/xmpp/internal/stream"
-	"mellium.im/xmpp/jid"
-	"mellium.im/xmpp/stanza"
-	"mellium.im/xmpp/stream"
+	"kamrankamilli/xmpp"
+	intstream "kamrankamilli/xmpp/internal/stream"
+	"kamrankamilli/xmpp/jid"
+	"kamrankamilli/xmpp/stanza"
+	"kamrankamilli/xmpp/stream"
 )
 
 // NopNegotiator marks the state as ready (by returning state|xmpp.Ready) and

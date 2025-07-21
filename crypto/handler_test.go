@@ -11,8 +11,8 @@ import (
 	"strconv"
 	"testing"
 
-	"mellium.im/xmpp/crypto"
-	"mellium.im/xmpp/disco/info"
+	"kamrankamilli/xmpp/crypto"
+	"kamrankamilli/xmpp/disco/info"
 )
 
 var iterTests = []struct {

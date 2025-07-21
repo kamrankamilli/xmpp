@@ -10,9 +10,9 @@ import (
 	"time"
 
 	"mellium.im/xmlstream"
-	"mellium.im/xmpp/history"
-	"mellium.im/xmpp/internal/xmpptest"
-	"mellium.im/xmpp/jid"
+	"kamrankamilli/xmpp/history"
+	"kamrankamilli/xmpp/internal/xmpptest"
+	"kamrankamilli/xmpp/jid"
 )
 
 var (

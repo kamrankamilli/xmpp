@@ -14,7 +14,7 @@ import (
 	"strings"
 	"testing"
 
-	"mellium.im/xmpp/styling"
+	"kamrankamilli/xmpp/styling"
 )
 
 var _ fmt.Stringer = styling.Style(0)

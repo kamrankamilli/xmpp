@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"testing"
 
-	"mellium.im/xmpp/jid"
+	"kamrankamilli/xmpp/jid"
 )
 
 func TestInvalidUnsafeParseJIDs(t *testing.T) {

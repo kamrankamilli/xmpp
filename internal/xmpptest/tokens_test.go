@@ -8,7 +8,7 @@ import (
 	"io"
 	"testing"
 
-	"mellium.im/xmpp/internal/xmpptest"
+	"kamrankamilli/xmpp/internal/xmpptest"
 )
 
 func TestTokens(t *testing.T) {

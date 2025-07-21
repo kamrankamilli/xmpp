@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"mellium.im/xmpp/crypto"
-	"mellium.im/xmpp/file"
-	"mellium.im/xmpp/internal/xmpptest"
+	"kamrankamilli/xmpp/crypto"
+	"kamrankamilli/xmpp/file"
+	"kamrankamilli/xmpp/internal/xmpptest"
 )
 
 var marshalTestCases = []xmpptest.EncodingTestCase{

@@ -10,7 +10,7 @@ import (
 	"io"
 	"strings"
 
-	"mellium.im/xmpp/styling"
+	"kamrankamilli/xmpp/styling"
 )
 
 func Example_html() {

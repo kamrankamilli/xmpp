@@ -19,7 +19,7 @@
 // Having a secret internal API may not be ideal, but it does let us get away
 // with a nice surface API without any real drawbacks other than an extra tiny
 // internal package to house this key.
-package wskey // import "mellium.im/xmpp/internal/wskey"
+package wskey // import "kamrankamilli/xmpp/internal/wskey"
 
 // Key is an internal type used as a context key by the xmpp and websocket
 // packages.

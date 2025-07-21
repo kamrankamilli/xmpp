@@ -79,7 +79,7 @@
 // For example:
 //
 //	MELLIUM_INTEGRATION_NO_CLEANUP=true go test -tags "integration" -run Integration .
-package integration // import "mellium.im/xmpp/internal/integration"
+package integration // import "kamrankamilli/xmpp/internal/integration"
 
 import (
 	"context"
@@ -102,8 +102,8 @@ import (
 	"testing"
 	"time"
 
-	"mellium.im/xmpp"
-	"mellium.im/xmpp/jid"
+	"kamrankamilli/xmpp"
+	"kamrankamilli/xmpp/jid"
 )
 
 var (

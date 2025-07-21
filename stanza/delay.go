@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"mellium.im/xmlstream"
-	"mellium.im/xmpp/jid"
+	"kamrankamilli/xmpp/jid"
 )
 
 // Delay can be added to a stanza to indicate that stanza delivery was delayed.

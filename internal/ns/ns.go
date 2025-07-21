@@ -4,7 +4,7 @@
 
 // Package ns provides namespace constants that are used by the xmpp package and
 // other internal packages.
-package ns // import "mellium.im/xmpp/internal/ns"
+package ns // import "kamrankamilli/xmpp/internal/ns"
 
 // List of commonly used namespaces.
 const (

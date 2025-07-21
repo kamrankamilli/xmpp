@@ -7,10 +7,10 @@ package bookmarks
 import (
 	"context"
 
-	"mellium.im/xmpp"
-	"mellium.im/xmpp/jid"
-	"mellium.im/xmpp/pubsub"
-	"mellium.im/xmpp/stanza"
+	"kamrankamilli/xmpp"
+	"kamrankamilli/xmpp/jid"
+	"kamrankamilli/xmpp/pubsub"
+	"kamrankamilli/xmpp/stanza"
 )
 
 // Publish creates or updates the bookmark.
