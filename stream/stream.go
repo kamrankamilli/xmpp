@@ -7,7 +7,7 @@ package stream
 import (
 	"encoding/xml"
 
-	"kamrankamilli/xmpp/jid"
+	"github.com/kamrankamilli/xmpp/jid"
 )
 
 // Info contains metadata extracted from a stream start token.

@@ -9,9 +9,9 @@ import (
 	"encoding/xml"
 
 	"mellium.im/xmlstream"
-	"kamrankamilli/xmpp"
-	"kamrankamilli/xmpp/form"
-	"kamrankamilli/xmpp/stanza"
+	"github.com/kamrankamilli/xmpp"
+	"github.com/kamrankamilli/xmpp/form"
+	"github.com/kamrankamilli/xmpp/stanza"
 )
 
 // CreateNode adds a new node on the pubsub service with the provided

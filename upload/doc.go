@@ -5,4 +5,4 @@
 //go:generate go run ../internal/genfeature
 
 // Package upload implements sending files by uploading them to an HTTP server.
-package upload // import "kamrankamilli/xmpp/upload"
+package upload // import "github.com/kamrankamilli/xmpp/upload"

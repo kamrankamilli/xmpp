@@ -18,14 +18,14 @@ import (
 	"time"
 
 	"mellium.im/xmlstream"
-	"kamrankamilli/xmpp/dial"
-	"kamrankamilli/xmpp/internal/attr"
-	"kamrankamilli/xmpp/internal/marshal"
-	intstream "kamrankamilli/xmpp/internal/stream"
-	"kamrankamilli/xmpp/internal/wskey"
-	"kamrankamilli/xmpp/jid"
-	"kamrankamilli/xmpp/stanza"
-	"kamrankamilli/xmpp/stream"
+	"github.com/kamrankamilli/xmpp/dial"
+	"github.com/kamrankamilli/xmpp/internal/attr"
+	"github.com/kamrankamilli/xmpp/internal/marshal"
+	intstream "github.com/kamrankamilli/xmpp/internal/stream"
+	"github.com/kamrankamilli/xmpp/internal/wskey"
+	"github.com/kamrankamilli/xmpp/jid"
+	"github.com/kamrankamilli/xmpp/stanza"
+	"github.com/kamrankamilli/xmpp/stream"
 )
 
 // Errors returned by the XMPP package.

@@ -8,9 +8,9 @@ import (
 	"encoding/xml"
 
 	"mellium.im/xmlstream"
-	"kamrankamilli/xmpp/jid"
-	"kamrankamilli/xmpp/mux"
-	"kamrankamilli/xmpp/stanza"
+	"github.com/kamrankamilli/xmpp/jid"
+	"github.com/kamrankamilli/xmpp/mux"
+	"github.com/kamrankamilli/xmpp/stanza"
 )
 
 // Handle returns an option that registers the given handler on the mux for the

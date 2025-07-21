@@ -9,8 +9,8 @@ import (
 	"encoding/xml"
 
 	"mellium.im/xmlstream"
-	"kamrankamilli/xmpp"
-	"kamrankamilli/xmpp/stanza"
+	"github.com/kamrankamilli/xmpp"
+	"github.com/kamrankamilli/xmpp/stanza"
 )
 
 // Delete removes an item from the pubsub node.

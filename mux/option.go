@@ -7,9 +7,9 @@ package mux
 import (
 	"encoding/xml"
 
-	"kamrankamilli/xmpp"
-	"kamrankamilli/xmpp/disco/info"
-	"kamrankamilli/xmpp/stanza"
+	"github.com/kamrankamilli/xmpp"
+	"github.com/kamrankamilli/xmpp/disco/info"
+	"github.com/kamrankamilli/xmpp/stanza"
 )
 
 // Option configures a ServeMux.

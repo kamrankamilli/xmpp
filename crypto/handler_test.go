@@ -11,8 +11,8 @@ import (
 	"strconv"
 	"testing"
 
-	"kamrankamilli/xmpp/crypto"
-	"kamrankamilli/xmpp/disco/info"
+	"github.com/kamrankamilli/xmpp/crypto"
+	"github.com/kamrankamilli/xmpp/disco/info"
 )
 
 var iterTests = []struct {

@@ -12,10 +12,10 @@ import (
 	"testing"
 
 	"mellium.im/sasl"
-	"kamrankamilli/xmpp"
-	"kamrankamilli/xmpp/internal/ns"
-	"kamrankamilli/xmpp/internal/saslerr"
-	"kamrankamilli/xmpp/internal/xmpptest"
+	"github.com/kamrankamilli/xmpp"
+	"github.com/kamrankamilli/xmpp/internal/ns"
+	"github.com/kamrankamilli/xmpp/internal/saslerr"
+	"github.com/kamrankamilli/xmpp/internal/xmpptest"
 )
 
 func TestSASLPanicsNoMechanisms(t *testing.T) {

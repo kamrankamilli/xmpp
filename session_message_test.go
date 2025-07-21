@@ -12,8 +12,8 @@ import (
 	"time"
 
 	"mellium.im/xmlstream"
-	"kamrankamilli/xmpp/internal/xmpptest"
-	"kamrankamilli/xmpp/stanza"
+	"github.com/kamrankamilli/xmpp/internal/xmpptest"
+	"github.com/kamrankamilli/xmpp/stanza"
 )
 
 var sendMessageTests = [...]struct {

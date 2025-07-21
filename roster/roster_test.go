@@ -14,11 +14,11 @@ import (
 	"testing"
 
 	"mellium.im/xmlstream"
-	"kamrankamilli/xmpp/internal/xmpptest"
-	"kamrankamilli/xmpp/jid"
-	"kamrankamilli/xmpp/mux"
-	"kamrankamilli/xmpp/roster"
-	"kamrankamilli/xmpp/stanza"
+	"github.com/kamrankamilli/xmpp/internal/xmpptest"
+	"github.com/kamrankamilli/xmpp/jid"
+	"github.com/kamrankamilli/xmpp/mux"
+	"github.com/kamrankamilli/xmpp/roster"
+	"github.com/kamrankamilli/xmpp/stanza"
 )
 
 var (

@@ -14,7 +14,7 @@ import (
 	"strings"
 	"testing"
 
-	"kamrankamilli/xmpp"
+	"github.com/kamrankamilli/xmpp"
 )
 
 type testWriter struct {

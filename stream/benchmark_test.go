@@ -8,7 +8,7 @@ import (
 	"net"
 	"testing"
 
-	"kamrankamilli/xmpp/stream"
+	"github.com/kamrankamilli/xmpp/stream"
 )
 
 func BenchmarkSeeOtherHostError(b *testing.B) {

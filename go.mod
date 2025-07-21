@@ -1,4 +1,4 @@
-module kamrankamilli/xmpp
+module github.com/kamrankamilli/xmpp
 
 go 1.23.0
 

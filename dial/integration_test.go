@@ -15,8 +15,8 @@ import (
 	"testing"
 	"time"
 
-	"kamrankamilli/xmpp/dial"
-	"kamrankamilli/xmpp/jid"
+	"github.com/kamrankamilli/xmpp/dial"
+	"github.com/kamrankamilli/xmpp/jid"
 )
 
 var dialTests = []struct {

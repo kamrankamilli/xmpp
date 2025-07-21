@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"testing"
 
-	"kamrankamilli/xmpp/internal/attr"
+	"github.com/kamrankamilli/xmpp/internal/attr"
 )
 
 var attrTests = [...]struct {

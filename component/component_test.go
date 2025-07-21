@@ -14,8 +14,8 @@ import (
 	"strings"
 	"testing"
 
-	"kamrankamilli/xmpp/component"
-	"kamrankamilli/xmpp/jid"
+	"github.com/kamrankamilli/xmpp/component"
+	"github.com/kamrankamilli/xmpp/jid"
 )
 
 const header = `<?xml version="1.0" encoding="UTF-8"?>`

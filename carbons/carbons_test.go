@@ -15,10 +15,10 @@ import (
 	"testing"
 
 	"mellium.im/xmlstream"
-	"kamrankamilli/xmpp/carbons"
-	"kamrankamilli/xmpp/delay"
-	"kamrankamilli/xmpp/internal/xmpptest"
-	"kamrankamilli/xmpp/stanza"
+	"github.com/kamrankamilli/xmpp/carbons"
+	"github.com/kamrankamilli/xmpp/delay"
+	"github.com/kamrankamilli/xmpp/internal/xmpptest"
+	"github.com/kamrankamilli/xmpp/stanza"
 )
 
 func TestEnableDisable(t *testing.T) {

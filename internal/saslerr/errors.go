@@ -4,7 +4,7 @@
 
 // Package saslerr provides error conditions for the XMPP profile of SASL as
 // defined by RFC 6120 §6.5.
-package saslerr // import "kamrankamilli/xmpp/internal/saslerr"
+package saslerr // import "github.com/kamrankamilli/xmpp/internal/saslerr"
 
 //go:generate go run -tags=tools golang.org/x/tools/cmd/stringer -type=Condition -linecomment
 
@@ -12,7 +12,7 @@ import (
 	"encoding/xml"
 
 	"mellium.im/xmlstream"
-	"kamrankamilli/xmpp/internal/ns"
+	"github.com/kamrankamilli/xmpp/internal/ns"
 )
 
 // Condition represents a SASL error condition that can be encapsulated by a

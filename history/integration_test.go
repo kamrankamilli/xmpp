@@ -14,12 +14,12 @@ import (
 
 	"mellium.im/sasl"
 	"mellium.im/xmlstream"
-	"kamrankamilli/xmpp"
-	"kamrankamilli/xmpp/history"
-	"kamrankamilli/xmpp/internal/integration"
-	"kamrankamilli/xmpp/internal/integration/prosody"
-	"kamrankamilli/xmpp/mux"
-	"kamrankamilli/xmpp/stanza"
+	"github.com/kamrankamilli/xmpp"
+	"github.com/kamrankamilli/xmpp/history"
+	"github.com/kamrankamilli/xmpp/internal/integration"
+	"github.com/kamrankamilli/xmpp/internal/integration/prosody"
+	"github.com/kamrankamilli/xmpp/mux"
+	"github.com/kamrankamilli/xmpp/stanza"
 )
 
 func TestIntegrationFetch(t *testing.T) {

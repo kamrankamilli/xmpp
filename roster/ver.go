@@ -10,7 +10,7 @@ import (
 	"io"
 
 	"mellium.im/xmlstream"
-	"kamrankamilli/xmpp"
+	"github.com/kamrankamilli/xmpp"
 )
 
 // Versioning returns a stream feature that advertises roster versioning

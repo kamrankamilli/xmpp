@@ -8,8 +8,8 @@ import (
 	"encoding/xml"
 
 	"mellium.im/xmlstream"
-	"kamrankamilli/xmpp/internal/ns"
-	"kamrankamilli/xmpp/jid"
+	"github.com/kamrankamilli/xmpp/internal/ns"
+	"github.com/kamrankamilli/xmpp/jid"
 )
 
 // Message is an XMPP stanza that contains a payload for direct one-to-one

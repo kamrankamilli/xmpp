@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"testing"
 
-	"kamrankamilli/xmpp/x509"
+	"github.com/kamrankamilli/xmpp/x509"
 )
 
 type crtTest struct {

@@ -9,8 +9,8 @@ import (
 	"io"
 	"text/template"
 
-	"kamrankamilli/xmpp/internal/integration"
-	"kamrankamilli/xmpp/jid"
+	"github.com/kamrankamilli/xmpp/internal/integration"
+	"github.com/kamrankamilli/xmpp/jid"
 )
 
 const (

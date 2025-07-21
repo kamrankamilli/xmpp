@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"time"
 
-	"kamrankamilli/xmpp/xtime"
+	"github.com/kamrankamilli/xmpp/xtime"
 )
 
 func ExampleTime() {

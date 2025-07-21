@@ -11,7 +11,7 @@ import (
 	"testing"
 
 	"mellium.im/xmlstream"
-	"kamrankamilli/xmpp/paging"
+	"github.com/kamrankamilli/xmpp/paging"
 )
 
 var (

@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // Package mcabber facilitates integration testing against Mcabber.
-package mcabber // import "kamrankamilli/xmpp/internal/integration/mcabber"
+package mcabber // import "github.com/kamrankamilli/xmpp/internal/integration/mcabber"
 
 import (
 	"bufio"
@@ -17,8 +17,8 @@ import (
 
 	"golang.org/x/sys/unix"
 
-	"kamrankamilli/xmpp/internal/integration"
-	"kamrankamilli/xmpp/jid"
+	"github.com/kamrankamilli/xmpp/internal/integration"
+	"github.com/kamrankamilli/xmpp/jid"
 )
 
 const (

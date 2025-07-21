@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // Package xmpptest provides utilities for XMPP testing.
-package xmpptest // import "kamrankamilli/xmpp/internal/xmpptest"
+package xmpptest // import "github.com/kamrankamilli/xmpp/internal/xmpptest"
 
 import (
 	"context"
@@ -11,11 +11,11 @@ import (
 	"net"
 	"strings"
 
-	"kamrankamilli/xmpp"
-	intstream "kamrankamilli/xmpp/internal/stream"
-	"kamrankamilli/xmpp/jid"
-	"kamrankamilli/xmpp/stanza"
-	"kamrankamilli/xmpp/stream"
+	"github.com/kamrankamilli/xmpp"
+	intstream "github.com/kamrankamilli/xmpp/internal/stream"
+	"github.com/kamrankamilli/xmpp/jid"
+	"github.com/kamrankamilli/xmpp/stanza"
+	"github.com/kamrankamilli/xmpp/stream"
 )
 
 // NopNegotiator marks the state as ready (by returning state|xmpp.Ready) and

@@ -54,4 +54,4 @@
 //	        Type: stanza.GetIQ,
 //	    }.Wrap(start)
 //	}
-package stanza // import "kamrankamilli/xmpp/stanza"
+package stanza // import "github.com/kamrankamilli/xmpp/stanza"

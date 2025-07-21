@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // Package delay implements delayed delivery of stanzas.
-package delay // import "kamrankamilli/xmpp/delay"
+package delay // import "github.com/kamrankamilli/xmpp/delay"
 
 import (
 	"encoding/xml"
@@ -11,9 +11,9 @@ import (
 	"time"
 
 	"mellium.im/xmlstream"
-	"kamrankamilli/xmpp/jid"
-	"kamrankamilli/xmpp/stanza"
-	"kamrankamilli/xmpp/xtime"
+	"github.com/kamrankamilli/xmpp/jid"
+	"github.com/kamrankamilli/xmpp/stanza"
+	"github.com/kamrankamilli/xmpp/xtime"
 )
 
 // NS is the namespace used by this package.

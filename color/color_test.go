@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"testing"
 
-	xmppcolor "kamrankamilli/xmpp/color"
+	xmppcolor "github.com/kamrankamilli/xmpp/color"
 )
 
 var _ fmt.Stringer = xmppcolor.CVD(0)

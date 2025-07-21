@@ -8,7 +8,7 @@
 // interfaces designed to be standard across multiplexers.
 // This lets you write, for example, a muxer that matches elements based on
 // xpath expressions and take advantage of existing handlers.
-package mux // import "kamrankamilli/xmpp/mux"
+package mux // import "github.com/kamrankamilli/xmpp/mux"
 
 import (
 	"encoding/xml"
@@ -17,12 +17,12 @@ import (
 	"strings"
 
 	"mellium.im/xmlstream"
-	"kamrankamilli/xmpp"
-	"kamrankamilli/xmpp/disco/info"
-	"kamrankamilli/xmpp/disco/items"
-	"kamrankamilli/xmpp/form"
-	"kamrankamilli/xmpp/internal/decl"
-	"kamrankamilli/xmpp/stanza"
+	"github.com/kamrankamilli/xmpp"
+	"github.com/kamrankamilli/xmpp/disco/info"
+	"github.com/kamrankamilli/xmpp/disco/items"
+	"github.com/kamrankamilli/xmpp/form"
+	"github.com/kamrankamilli/xmpp/internal/decl"
+	"github.com/kamrankamilli/xmpp/stanza"
 )
 
 const (

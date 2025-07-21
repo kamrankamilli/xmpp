@@ -13,12 +13,12 @@ import (
 	"testing"
 
 	"mellium.im/sasl"
-	"kamrankamilli/xmpp"
-	"kamrankamilli/xmpp/internal/integration"
-	"kamrankamilli/xmpp/internal/integration/mcabber"
-	"kamrankamilli/xmpp/internal/integration/mellium"
-	"kamrankamilli/xmpp/internal/integration/prosody"
-	"kamrankamilli/xmpp/jid"
+	"github.com/kamrankamilli/xmpp"
+	"github.com/kamrankamilli/xmpp/internal/integration"
+	"github.com/kamrankamilli/xmpp/internal/integration/mcabber"
+	"github.com/kamrankamilli/xmpp/internal/integration/mellium"
+	"github.com/kamrankamilli/xmpp/internal/integration/prosody"
+	"github.com/kamrankamilli/xmpp/jid"
 )
 
 func TestMain(m *testing.M) {

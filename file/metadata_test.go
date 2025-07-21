@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"kamrankamilli/xmpp/crypto"
-	"kamrankamilli/xmpp/file"
-	"kamrankamilli/xmpp/internal/xmpptest"
+	"github.com/kamrankamilli/xmpp/crypto"
+	"github.com/kamrankamilli/xmpp/file"
+	"github.com/kamrankamilli/xmpp/internal/xmpptest"
 )
 
 var marshalTestCases = []xmpptest.EncodingTestCase{

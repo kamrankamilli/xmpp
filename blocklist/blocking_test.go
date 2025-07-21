@@ -14,11 +14,11 @@ import (
 	"testing"
 
 	"mellium.im/xmlstream"
-	"kamrankamilli/xmpp/blocklist"
-	"kamrankamilli/xmpp/internal/xmpptest"
-	"kamrankamilli/xmpp/jid"
-	"kamrankamilli/xmpp/mux"
-	"kamrankamilli/xmpp/stanza"
+	"github.com/kamrankamilli/xmpp/blocklist"
+	"github.com/kamrankamilli/xmpp/internal/xmpptest"
+	"github.com/kamrankamilli/xmpp/jid"
+	"github.com/kamrankamilli/xmpp/mux"
+	"github.com/kamrankamilli/xmpp/stanza"
 )
 
 var matchTestCases = [...]struct {

@@ -12,8 +12,8 @@ import (
 	"testing"
 
 	"mellium.im/xmlstream"
-	"kamrankamilli/xmpp/internal/marshal"
-	"kamrankamilli/xmpp/stanza"
+	"github.com/kamrankamilli/xmpp/internal/marshal"
+	"github.com/kamrankamilli/xmpp/stanza"
 )
 
 type testWriteFlusher struct {

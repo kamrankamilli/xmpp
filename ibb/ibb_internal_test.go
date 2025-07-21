@@ -7,7 +7,7 @@ package ibb
 import (
 	"context"
 
-	"kamrankamilli/xmpp/jid"
+	"github.com/kamrankamilli/xmpp/jid"
 )
 
 // WaitExpect blocks until Expect has been called for the given JID/SID

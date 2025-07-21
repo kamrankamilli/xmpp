@@ -8,7 +8,7 @@ import (
 	"io"
 	"testing"
 
-	"kamrankamilli/xmpp/internal/xmpptest"
+	"github.com/kamrankamilli/xmpp/internal/xmpptest"
 )
 
 func TestTokens(t *testing.T) {

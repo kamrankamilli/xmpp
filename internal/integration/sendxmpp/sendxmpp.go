@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // Package sendxmpp facilitates integration testing with sendxmpp.
-package sendxmpp // import "kamrankamilli/xmpp/internal/integration/sendxmpp"
+package sendxmpp // import "github.com/kamrankamilli/xmpp/internal/integration/sendxmpp"
 
 import (
 	"context"
@@ -12,8 +12,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"kamrankamilli/xmpp/internal/integration"
-	"kamrankamilli/xmpp/jid"
+	"github.com/kamrankamilli/xmpp/internal/integration"
+	"github.com/kamrankamilli/xmpp/jid"
 )
 
 const (

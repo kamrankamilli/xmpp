@@ -9,7 +9,7 @@ import (
 	"strconv"
 
 	"mellium.im/xmlstream"
-	"kamrankamilli/xmpp/stanza"
+	"github.com/kamrankamilli/xmpp/stanza"
 )
 
 func closePayload(sid string) xml.TokenReader {

@@ -8,7 +8,7 @@ import (
 	"encoding/xml"
 
 	"mellium.im/xmlstream"
-	"kamrankamilli/xmpp/internal/ns"
+	"github.com/kamrankamilli/xmpp/internal/ns"
 )
 
 // Identity is the type and category of a node on the network.

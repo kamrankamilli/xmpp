@@ -3,7 +3,7 @@
 package form
 
 import (
-	"kamrankamilli/xmpp/disco/info"
+	"github.com/kamrankamilli/xmpp/disco/info"
 )
 
 // A list of service discovery features that are supported by this package.

@@ -13,11 +13,11 @@ import (
 	"strings"
 	"testing"
 
-	"kamrankamilli/xmpp/internal/decl"
-	intstream "kamrankamilli/xmpp/internal/stream"
-	"kamrankamilli/xmpp/stanza"
-	"kamrankamilli/xmpp/stream"
-	"kamrankamilli/xmpp/websocket"
+	"github.com/kamrankamilli/xmpp/internal/decl"
+	intstream "github.com/kamrankamilli/xmpp/internal/stream"
+	"github.com/kamrankamilli/xmpp/stanza"
+	"github.com/kamrankamilli/xmpp/stream"
+	"github.com/kamrankamilli/xmpp/websocket"
 )
 
 var expectTestCases = [...]struct {

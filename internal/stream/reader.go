@@ -10,7 +10,7 @@ import (
 	"errors"
 	"io"
 
-	"kamrankamilli/xmpp/stream"
+	"github.com/kamrankamilli/xmpp/stream"
 )
 
 // Errors related to stream handling

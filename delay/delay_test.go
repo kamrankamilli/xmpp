@@ -12,9 +12,9 @@ import (
 	"time"
 
 	"mellium.im/xmlstream"
-	"kamrankamilli/xmpp/delay"
-	"kamrankamilli/xmpp/jid"
-	"kamrankamilli/xmpp/stanza"
+	"github.com/kamrankamilli/xmpp/delay"
+	"github.com/kamrankamilli/xmpp/jid"
+	"github.com/kamrankamilli/xmpp/stanza"
 )
 
 var (

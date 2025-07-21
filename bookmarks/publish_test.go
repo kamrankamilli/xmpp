@@ -12,9 +12,9 @@ import (
 	"testing"
 
 	"mellium.im/xmlstream"
-	"kamrankamilli/xmpp/bookmarks"
-	"kamrankamilli/xmpp/internal/xmpptest"
-	"kamrankamilli/xmpp/stanza"
+	"github.com/kamrankamilli/xmpp/bookmarks"
+	"github.com/kamrankamilli/xmpp/internal/xmpptest"
+	"github.com/kamrankamilli/xmpp/stanza"
 )
 
 func TestDelete(t *testing.T) {

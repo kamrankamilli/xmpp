@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // Package ejabberd facilitates integration testing against Ejabberd.
-package ejabberd // import "kamrankamilli/xmpp/internal/integration/ejabberd"
+package ejabberd // import "github.com/kamrankamilli/xmpp/internal/integration/ejabberd"
 
 import (
 	"context"
@@ -14,8 +14,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"kamrankamilli/xmpp/internal/integration"
-	"kamrankamilli/xmpp/jid"
+	"github.com/kamrankamilli/xmpp/internal/integration"
+	"github.com/kamrankamilli/xmpp/jid"
 )
 
 const (

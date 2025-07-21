@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"testing"
 
-	"kamrankamilli/xmpp/stream"
+	"github.com/kamrankamilli/xmpp/stream"
 )
 
 // Compile time interface checks.

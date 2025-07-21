@@ -10,12 +10,12 @@ import (
 	"testing"
 
 	"mellium.im/xmlstream"
-	"kamrankamilli/xmpp/history"
-	"kamrankamilli/xmpp/internal/xmpptest"
-	"kamrankamilli/xmpp/jid"
-	"kamrankamilli/xmpp/mux"
-	"kamrankamilli/xmpp/paging"
-	"kamrankamilli/xmpp/stanza"
+	"github.com/kamrankamilli/xmpp/history"
+	"github.com/kamrankamilli/xmpp/internal/xmpptest"
+	"github.com/kamrankamilli/xmpp/jid"
+	"github.com/kamrankamilli/xmpp/mux"
+	"github.com/kamrankamilli/xmpp/paging"
+	"github.com/kamrankamilli/xmpp/stanza"
 )
 
 func TestRoundTrip(t *testing.T) {

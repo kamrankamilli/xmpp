@@ -31,4 +31,4 @@
 // This can be used to expand the supported characters in the username of a JID.
 //
 // Be advised: This API is still unstable and is subject to change.
-package jid // import "kamrankamilli/xmpp/jid"
+package jid // import "github.com/kamrankamilli/xmpp/jid"

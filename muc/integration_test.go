@@ -14,15 +14,15 @@ import (
 	"testing"
 
 	"mellium.im/sasl"
-	"kamrankamilli/xmpp"
-	"kamrankamilli/xmpp/disco"
-	"kamrankamilli/xmpp/disco/items"
-	"kamrankamilli/xmpp/internal/integration"
-	"kamrankamilli/xmpp/internal/integration/prosody"
-	"kamrankamilli/xmpp/jid"
-	"kamrankamilli/xmpp/muc"
-	"kamrankamilli/xmpp/mux"
-	"kamrankamilli/xmpp/stanza"
+	"github.com/kamrankamilli/xmpp"
+	"github.com/kamrankamilli/xmpp/disco"
+	"github.com/kamrankamilli/xmpp/disco/items"
+	"github.com/kamrankamilli/xmpp/internal/integration"
+	"github.com/kamrankamilli/xmpp/internal/integration/prosody"
+	"github.com/kamrankamilli/xmpp/jid"
+	"github.com/kamrankamilli/xmpp/muc"
+	"github.com/kamrankamilli/xmpp/mux"
+	"github.com/kamrankamilli/xmpp/stanza"
 )
 
 func TestIntegrationJoinRoom(t *testing.T) {

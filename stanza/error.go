@@ -11,8 +11,8 @@ import (
 	"sort"
 
 	"mellium.im/xmlstream"
-	"kamrankamilli/xmpp/internal/ns"
-	"kamrankamilli/xmpp/jid"
+	"github.com/kamrankamilli/xmpp/internal/ns"
+	"github.com/kamrankamilli/xmpp/jid"
 )
 
 // ErrorType is the type of an stanza error payloads.
@@ -101,7 +101,7 @@ const (
 
 	// The sending entity has provided (e.g., during resource binding) or
 	// communicated (e.g., in the 'to' address of a stanza) an XMPP address
-	// that violates the rules of the kamrankamilli/xmpp/jid package; the
+	// that violates the rules of the github.com/kamrankamilli/xmpp/jid package; the
 	// associated error type SHOULD be "modify".
 	//
 	//  Implementation Note: Enforcement of the format for XMPP localparts

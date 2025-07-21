@@ -15,7 +15,7 @@ import (
 	"testing"
 	"time"
 
-	"kamrankamilli/xmpp/jid"
+	"github.com/kamrankamilli/xmpp/jid"
 )
 
 var (

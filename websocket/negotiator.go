@@ -8,9 +8,9 @@ import (
 	"context"
 	"io"
 
-	"kamrankamilli/xmpp"
-	"kamrankamilli/xmpp/internal/wskey"
-	"kamrankamilli/xmpp/stream"
+	"github.com/kamrankamilli/xmpp"
+	"github.com/kamrankamilli/xmpp/internal/wskey"
+	"github.com/kamrankamilli/xmpp/stream"
 )
 
 // Negotiator is like xmpp.NewNegotiator except that it uses the websocket

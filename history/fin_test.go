@@ -9,9 +9,9 @@ import (
 	"testing"
 
 	"mellium.im/xmlstream"
-	"kamrankamilli/xmpp/history"
-	"kamrankamilli/xmpp/internal/xmpptest"
-	"kamrankamilli/xmpp/paging"
+	"github.com/kamrankamilli/xmpp/history"
+	"github.com/kamrankamilli/xmpp/internal/xmpptest"
+	"github.com/kamrankamilli/xmpp/paging"
 )
 
 var (

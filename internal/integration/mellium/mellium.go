@@ -22,7 +22,7 @@
 // Finally, the server knows about its temporary directory where it can load
 // other files (such as TLS certificates) because it will be started with the
 // working directory set to the temp dir.
-package mellium // import "kamrankamilli/xmpp/internal/integration/mellium"
+package mellium // import "github.com/kamrankamilli/xmpp/internal/integration/mellium"
 
 import (
 	"context"
@@ -37,8 +37,8 @@ import (
 	"testing"
 
 	"mellium.im/sasl"
-	"kamrankamilli/xmpp"
-	"kamrankamilli/xmpp/internal/integration"
+	"github.com/kamrankamilli/xmpp"
+	"github.com/kamrankamilli/xmpp/internal/integration"
 )
 
 type logWriter struct {

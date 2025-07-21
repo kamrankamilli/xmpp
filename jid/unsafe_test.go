@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"testing"
 
-	"kamrankamilli/xmpp/jid"
+	"github.com/kamrankamilli/xmpp/jid"
 )
 
 func TestInvalidUnsafeParseJIDs(t *testing.T) {

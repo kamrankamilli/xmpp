@@ -7,7 +7,7 @@ package crypto
 import (
 	"fmt"
 
-	"kamrankamilli/xmpp/disco/info"
+	"github.com/kamrankamilli/xmpp/disco/info"
 )
 
 // Features returns an iter that can be registered against a mux to advertise

@@ -5,7 +5,7 @@
 //go:generate go run ../internal/genfeature -vars "Feature:NS,FeatureNotify:NSNotify"
 
 // Package bookmarks implements storing bookmarks to chat rooms.
-package bookmarks // import "kamrankamilli/xmpp/bookmarks"
+package bookmarks // import "github.com/kamrankamilli/xmpp/bookmarks"
 
 // Namespaces used by this package.
 const (

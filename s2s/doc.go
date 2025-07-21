@@ -3,4 +3,4 @@
 // license that can be found in the LICENSE file.
 
 // Package s2s implements server-to-server functionality.
-package s2s // import "kamrankamilli/xmpp/s2s"
+package s2s // import "github.com/kamrankamilli/xmpp/s2s"

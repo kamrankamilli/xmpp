@@ -9,7 +9,7 @@ import (
 	"strconv"
 
 	"mellium.im/xmlstream"
-	"kamrankamilli/xmpp/paging"
+	"github.com/kamrankamilli/xmpp/paging"
 )
 
 // Result is the metadata (not messages) returned from a MAM query.

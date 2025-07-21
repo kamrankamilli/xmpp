@@ -14,9 +14,9 @@ import (
 	"strings"
 	"testing"
 
-	"kamrankamilli/xmpp"
-	"kamrankamilli/xmpp/internal/ns"
-	"kamrankamilli/xmpp/internal/xmpptest"
+	"github.com/kamrankamilli/xmpp"
+	"github.com/kamrankamilli/xmpp/internal/ns"
+	"github.com/kamrankamilli/xmpp/internal/xmpptest"
 )
 
 // There is no room for variation on the starttls feature negotiation, so step

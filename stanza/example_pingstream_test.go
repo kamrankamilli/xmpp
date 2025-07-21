@@ -10,8 +10,8 @@ import (
 	"os"
 
 	"mellium.im/xmlstream"
-	"kamrankamilli/xmpp/jid"
-	"kamrankamilli/xmpp/stanza"
+	"github.com/kamrankamilli/xmpp/jid"
+	"github.com/kamrankamilli/xmpp/stanza"
 )
 
 // WrapPingIQ returns an xml.TokenReader that outputs a new IQ stanza with

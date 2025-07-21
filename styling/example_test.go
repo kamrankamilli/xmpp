@@ -10,7 +10,7 @@ import (
 	"io"
 	"strings"
 
-	"kamrankamilli/xmpp/styling"
+	"github.com/kamrankamilli/xmpp/styling"
 )
 
 func Example_html() {

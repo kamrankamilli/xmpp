@@ -4,7 +4,7 @@
 
 // Package marshal contains functions for encoding structs as an XML token
 // stream.
-package marshal // import "kamrankamilli/xmpp/internal/marshal"
+package marshal // import "github.com/kamrankamilli/xmpp/internal/marshal"
 
 import (
 	"bytes"

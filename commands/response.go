@@ -8,7 +8,7 @@ import (
 	"encoding/xml"
 
 	"mellium.im/xmlstream"
-	"kamrankamilli/xmpp/stanza"
+	"github.com/kamrankamilli/xmpp/stanza"
 )
 
 // Response is the response to a command.

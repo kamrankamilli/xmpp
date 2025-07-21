@@ -10,10 +10,10 @@ import (
 	"strings"
 	"testing"
 
-	"kamrankamilli/xmpp/carbons"
-	"kamrankamilli/xmpp/internal/xmpptest"
-	"kamrankamilli/xmpp/mux"
-	"kamrankamilli/xmpp/stanza"
+	"github.com/kamrankamilli/xmpp/carbons"
+	"github.com/kamrankamilli/xmpp/internal/xmpptest"
+	"github.com/kamrankamilli/xmpp/mux"
+	"github.com/kamrankamilli/xmpp/stanza"
 )
 
 func TestHandler(t *testing.T) {

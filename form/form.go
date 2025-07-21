@@ -13,7 +13,7 @@ import (
 	"strings"
 
 	"mellium.im/xmlstream"
-	"kamrankamilli/xmpp/jid"
+	"github.com/kamrankamilli/xmpp/jid"
 )
 
 var spaceReplacer = strings.NewReplacer(

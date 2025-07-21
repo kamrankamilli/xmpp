@@ -9,12 +9,12 @@ import (
 	"fmt"
 	"io"
 
-	"kamrankamilli/xmpp/internal/attr"
-	intstream "kamrankamilli/xmpp/internal/stream"
-	"kamrankamilli/xmpp/internal/wskey"
-	"kamrankamilli/xmpp/jid"
-	"kamrankamilli/xmpp/stanza"
-	"kamrankamilli/xmpp/stream"
+	"github.com/kamrankamilli/xmpp/internal/attr"
+	intstream "github.com/kamrankamilli/xmpp/internal/stream"
+	"github.com/kamrankamilli/xmpp/internal/wskey"
+	"github.com/kamrankamilli/xmpp/jid"
+	"github.com/kamrankamilli/xmpp/stanza"
+	"github.com/kamrankamilli/xmpp/stream"
 )
 
 // Negotiator is a function that can be passed to NewSession to perform custom

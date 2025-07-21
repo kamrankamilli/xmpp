@@ -5,7 +5,7 @@
 //go:generate go run ../internal/genfeature
 
 // Package commands implements executable ad-hoc commands.
-package commands // import "kamrankamilli/xmpp/commands"
+package commands // import "github.com/kamrankamilli/xmpp/commands"
 
 import (
 	"context"
@@ -14,9 +14,9 @@ import (
 	"io"
 
 	"mellium.im/xmlstream"
-	"kamrankamilli/xmpp"
-	"kamrankamilli/xmpp/jid"
-	"kamrankamilli/xmpp/stanza"
+	"github.com/kamrankamilli/xmpp"
+	"github.com/kamrankamilli/xmpp/jid"
+	"github.com/kamrankamilli/xmpp/stanza"
 )
 
 // NS is the namespace used by commands, provided as a convenience.

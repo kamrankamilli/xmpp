@@ -13,11 +13,11 @@ import (
 	"testing"
 
 	"mellium.im/sasl"
-	"kamrankamilli/xmpp"
-	"kamrankamilli/xmpp/bookmarks"
-	"kamrankamilli/xmpp/internal/integration"
-	"kamrankamilli/xmpp/internal/integration/ejabberd"
-	"kamrankamilli/xmpp/internal/integration/prosody"
+	"github.com/kamrankamilli/xmpp"
+	"github.com/kamrankamilli/xmpp/bookmarks"
+	"github.com/kamrankamilli/xmpp/internal/integration"
+	"github.com/kamrankamilli/xmpp/internal/integration/ejabberd"
+	"github.com/kamrankamilli/xmpp/internal/integration/prosody"
 )
 
 func TestIntegrationFetch(t *testing.T) {

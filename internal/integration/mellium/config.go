@@ -5,7 +5,7 @@
 package mellium
 
 import (
-	"kamrankamilli/xmpp"
+	"github.com/kamrankamilli/xmpp"
 )
 
 // Config contains options that can be used to configure the newly started

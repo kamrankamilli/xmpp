@@ -13,7 +13,7 @@ import (
 	"testing"
 
 	"mellium.im/xmlstream"
-	"kamrankamilli/xmpp/stream"
+	"github.com/kamrankamilli/xmpp/stream"
 )
 
 var (

@@ -7,16 +7,16 @@
 // This package provides advanced configuration for establishing the initial
 // network layer sockets that will be used for XMPP session negotiation later.
 // For simple uses that do not require extra configuration, users may instead
-// use the [kamrankamilli/xmpp.DialClientSession],
-// [kamrankamilli/xmpp.DialServerSession], or [kamrankamilli/xmpp.DialSession]
+// use the [github.com/kamrankamilli/xmpp.DialClientSession],
+// [github.com/kamrankamilli/xmpp.DialServerSession], or [github.com/kamrankamilli/xmpp.DialSession]
 // functions to perform both service discovery and session negotiation at once.
 //
 // Projects requiring more advanced configuration of the connection options may
 // instead choose to use the [Client] and [Server] shortcuts in this package to
 // first dial the TCP connection without performing any session negotiation.
 // Session negotiation can then be completed using the
-// [kamrankamilli/xmpp.NewClientSession], [kamrankamilli/xmpp.NewServerSession], or
-// [kamrankamilli/xmpp.NewSession] function.
+// [github.com/kamrankamilli/xmpp.NewClientSession], [github.com/kamrankamilli/xmpp.NewServerSession], or
+// [github.com/kamrankamilli/xmpp.NewSession] function.
 //
 // Projects such as clients requiring the ability to enable or disable service
 // discovery, configure implicit TLS, configure timeouts, etc. will want to
@@ -56,7 +56,7 @@
 // As with any network connection, timeouts or deadlines should be set to ensure
 // that a misconfigured server or bad network hardware can't block the
 // connection attempt forever.
-// For the simple connection functions in [kamrankamilli/xmpp] this is accomplished
+// For the simple connection functions in [github.com/kamrankamilli/xmpp] this is accomplished
 // by passing a [context.Context] to the function.
 // The context cancelation will apply to the entire connection and XMPP session
 // negotiation attempt.
@@ -83,7 +83,7 @@
 //
 // [RFC6120 §3.2.1]: https://datatracker.ietf.org/doc/html/rfc6120#section-3.2.1
 // [XEP-0368]: https://xmpp.org/extensions/xep-0368.html
-package dial // import "kamrankamilli/xmpp/dial"
+package dial // import "github.com/kamrankamilli/xmpp/dial"
 
 import (
 	"context"
@@ -94,8 +94,8 @@ import (
 	"strconv"
 	"sync"
 
-	"kamrankamilli/xmpp/internal/discover"
-	"kamrankamilli/xmpp/jid"
+	"github.com/kamrankamilli/xmpp/internal/discover"
+	"github.com/kamrankamilli/xmpp/jid"
 )
 
 // Client discovers and connects to the address on the named network with a

@@ -3,16 +3,16 @@
 // license that can be found in the LICENSE file.
 
 // Package blocklist implements blocking and unblocking of contacts.
-package blocklist // import "kamrankamilli/xmpp/blocklist"
+package blocklist // import "github.com/kamrankamilli/xmpp/blocklist"
 
 import (
 	"context"
 	"encoding/xml"
 
 	"mellium.im/xmlstream"
-	"kamrankamilli/xmpp"
-	"kamrankamilli/xmpp/jid"
-	"kamrankamilli/xmpp/stanza"
+	"github.com/kamrankamilli/xmpp"
+	"github.com/kamrankamilli/xmpp/jid"
+	"github.com/kamrankamilli/xmpp/stanza"
 )
 
 // Various namespaces used by this package, provided as a convenience.

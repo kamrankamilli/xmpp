@@ -18,12 +18,12 @@ import (
 	"testing"
 
 	"mellium.im/xmlstream"
-	"kamrankamilli/xmpp"
-	intstream "kamrankamilli/xmpp/internal/stream"
-	"kamrankamilli/xmpp/internal/xmpptest"
-	"kamrankamilli/xmpp/jid"
-	"kamrankamilli/xmpp/stanza"
-	"kamrankamilli/xmpp/stream"
+	"github.com/kamrankamilli/xmpp"
+	intstream "github.com/kamrankamilli/xmpp/internal/stream"
+	"github.com/kamrankamilli/xmpp/internal/xmpptest"
+	"github.com/kamrankamilli/xmpp/jid"
+	"github.com/kamrankamilli/xmpp/stanza"
+	"github.com/kamrankamilli/xmpp/stream"
 )
 
 var _ fmt.Stringer = xmpp.SessionState(0)

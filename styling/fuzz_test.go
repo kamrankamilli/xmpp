@@ -10,7 +10,7 @@ import (
 	"io"
 	"testing"
 
-	"kamrankamilli/xmpp/styling"
+	"github.com/kamrankamilli/xmpp/styling"
 )
 
 func FuzzParseDocument(f *testing.F) {

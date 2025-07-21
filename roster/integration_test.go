@@ -14,13 +14,13 @@ import (
 	"testing"
 
 	"mellium.im/sasl"
-	"kamrankamilli/xmpp"
-	"kamrankamilli/xmpp/internal/integration"
-	"kamrankamilli/xmpp/internal/integration/ejabberd"
-	"kamrankamilli/xmpp/internal/integration/jackal"
-	"kamrankamilli/xmpp/internal/integration/prosody"
-	"kamrankamilli/xmpp/jid"
-	"kamrankamilli/xmpp/roster"
+	"github.com/kamrankamilli/xmpp"
+	"github.com/kamrankamilli/xmpp/internal/integration"
+	"github.com/kamrankamilli/xmpp/internal/integration/ejabberd"
+	"github.com/kamrankamilli/xmpp/internal/integration/jackal"
+	"github.com/kamrankamilli/xmpp/internal/integration/prosody"
+	"github.com/kamrankamilli/xmpp/jid"
+	"github.com/kamrankamilli/xmpp/roster"
 )
 
 func TestIntegrationRoster(t *testing.T) {

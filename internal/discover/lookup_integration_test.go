@@ -13,8 +13,8 @@ import (
 	"strconv"
 	"testing"
 
-	"kamrankamilli/xmpp/internal/discover"
-	"kamrankamilli/xmpp/jid"
+	"github.com/kamrankamilli/xmpp/internal/discover"
+	"github.com/kamrankamilli/xmpp/jid"
 )
 
 var testConvJID = jid.MustParse("sam@conversations.im")

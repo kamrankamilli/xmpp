@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // Package cid implements content-ID URLs.
-package cid // import "kamrankamilli/xmpp/internal/cid"
+package cid // import "github.com/kamrankamilli/xmpp/internal/cid"
 
 import (
 	"encoding/hex"

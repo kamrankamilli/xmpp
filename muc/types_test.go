@@ -7,7 +7,7 @@ package muc_test
 import (
 	"encoding/xml"
 
-	"kamrankamilli/xmpp/muc"
+	"github.com/kamrankamilli/xmpp/muc"
 )
 
 var (

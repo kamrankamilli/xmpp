@@ -5,7 +5,7 @@
 //go:generate go run ../internal/genfeature
 
 // Package forward implements forwarding messages.
-package forward // import "kamrankamilli/xmpp/forward"
+package forward // import "github.com/kamrankamilli/xmpp/forward"
 
 import (
 	"encoding/xml"
@@ -13,8 +13,8 @@ import (
 	"time"
 
 	"mellium.im/xmlstream"
-	"kamrankamilli/xmpp/delay"
-	"kamrankamilli/xmpp/stanza"
+	"github.com/kamrankamilli/xmpp/delay"
+	"github.com/kamrankamilli/xmpp/stanza"
 )
 
 // Namespaces used by this package, provided as a convenience.

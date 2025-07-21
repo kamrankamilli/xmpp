@@ -3,4 +3,4 @@
 // license that can be found in the LICENSE file.
 
 // Package attr contains unexported functionality related to XML attributes.
-package attr // import "kamrankamilli/xmpp/internal/attr"
+package attr // import "github.com/kamrankamilli/xmpp/internal/attr"

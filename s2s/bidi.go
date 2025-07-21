@@ -10,7 +10,7 @@ import (
 	"io"
 
 	"mellium.im/xmlstream"
-	"kamrankamilli/xmpp"
+	"github.com/kamrankamilli/xmpp"
 )
 
 // Namespaces used in this package, provided as a convenience.

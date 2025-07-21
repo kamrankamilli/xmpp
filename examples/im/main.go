@@ -22,14 +22,14 @@ import (
 	"time"
 
 	"mellium.im/sasl"
-	"kamrankamilli/xmpp"
-	"kamrankamilli/xmpp/dial"
-	"kamrankamilli/xmpp/jid"
-	"kamrankamilli/xmpp/muc"
-	"kamrankamilli/xmpp/mux"
-	"kamrankamilli/xmpp/stanza"
-	"kamrankamilli/xmpp/uri"
-	"kamrankamilli/xmpp/version"
+	"github.com/kamrankamilli/xmpp"
+	"github.com/kamrankamilli/xmpp/dial"
+	"github.com/kamrankamilli/xmpp/jid"
+	"github.com/kamrankamilli/xmpp/muc"
+	"github.com/kamrankamilli/xmpp/mux"
+	"github.com/kamrankamilli/xmpp/stanza"
+	"github.com/kamrankamilli/xmpp/uri"
+	"github.com/kamrankamilli/xmpp/version"
 )
 
 const (

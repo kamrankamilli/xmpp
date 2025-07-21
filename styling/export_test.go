@@ -20,7 +20,7 @@ import (
 	"os"
 	"testing"
 
-	"kamrankamilli/xmpp/styling"
+	"github.com/kamrankamilli/xmpp/styling"
 )
 
 type jsonStyle struct {

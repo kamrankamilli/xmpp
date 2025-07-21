@@ -10,11 +10,11 @@ import (
 	"testing"
 
 	"mellium.im/xmlstream"
-	"kamrankamilli/xmpp/disco"
-	"kamrankamilli/xmpp/disco/items"
-	"kamrankamilli/xmpp/internal/xmpptest"
-	"kamrankamilli/xmpp/mux"
-	"kamrankamilli/xmpp/stanza"
+	"github.com/kamrankamilli/xmpp/disco"
+	"github.com/kamrankamilli/xmpp/disco/items"
+	"github.com/kamrankamilli/xmpp/internal/xmpptest"
+	"github.com/kamrankamilli/xmpp/mux"
+	"github.com/kamrankamilli/xmpp/stanza"
 )
 
 func TestFeaturesRoundTrip(t *testing.T) {

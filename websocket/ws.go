@@ -16,9 +16,9 @@ import (
 
 	"golang.org/x/net/websocket"
 
-	"kamrankamilli/xmpp"
-	"kamrankamilli/xmpp/internal/discover"
-	"kamrankamilli/xmpp/jid"
+	"github.com/kamrankamilli/xmpp"
+	"github.com/kamrankamilli/xmpp/internal/discover"
+	"github.com/kamrankamilli/xmpp/jid"
 )
 
 // NewSession establishes an XMPP session from the perspective of the initiating

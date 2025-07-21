@@ -8,7 +8,7 @@
 //
 // In particular, this package implements XEP-0202: Entity Time and XEP-0082:
 // XMPP Date and Time Profiles.
-package xtime // import "kamrankamilli/xmpp/xtime"
+package xtime // import "github.com/kamrankamilli/xmpp/xtime"
 
 import (
 	"context"
@@ -16,10 +16,10 @@ import (
 	"time"
 
 	"mellium.im/xmlstream"
-	"kamrankamilli/xmpp"
-	"kamrankamilli/xmpp/jid"
-	"kamrankamilli/xmpp/mux"
-	"kamrankamilli/xmpp/stanza"
+	"github.com/kamrankamilli/xmpp"
+	"github.com/kamrankamilli/xmpp/jid"
+	"github.com/kamrankamilli/xmpp/mux"
+	"github.com/kamrankamilli/xmpp/stanza"
 )
 
 const (

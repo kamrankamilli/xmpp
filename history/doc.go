@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // Package history implements fetching messages from an archive.
-package history // import "kamrankamilli/xmpp/history"
+package history // import "github.com/kamrankamilli/xmpp/history"
 
 // The namespaces used by this package, provided as a convenience.
 const (

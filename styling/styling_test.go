@@ -14,7 +14,7 @@ import (
 	"strings"
 	"testing"
 
-	"kamrankamilli/xmpp/styling"
+	"github.com/kamrankamilli/xmpp/styling"
 )
 
 var _ fmt.Stringer = styling.Style(0)

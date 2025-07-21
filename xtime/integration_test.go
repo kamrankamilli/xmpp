@@ -14,12 +14,12 @@ import (
 	"time"
 
 	"mellium.im/sasl"
-	"kamrankamilli/xmpp"
-	"kamrankamilli/xmpp/internal/integration"
-	"kamrankamilli/xmpp/internal/integration/ejabberd"
-	"kamrankamilli/xmpp/internal/integration/jackal"
-	"kamrankamilli/xmpp/internal/integration/prosody"
-	"kamrankamilli/xmpp/xtime"
+	"github.com/kamrankamilli/xmpp"
+	"github.com/kamrankamilli/xmpp/internal/integration"
+	"github.com/kamrankamilli/xmpp/internal/integration/ejabberd"
+	"github.com/kamrankamilli/xmpp/internal/integration/jackal"
+	"github.com/kamrankamilli/xmpp/internal/integration/prosody"
+	"github.com/kamrankamilli/xmpp/xtime"
 )
 
 func TestIntegrationRequestTime(t *testing.T) {

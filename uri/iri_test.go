@@ -11,8 +11,8 @@ import (
 	"strconv"
 	"testing"
 
-	"kamrankamilli/xmpp/jid"
-	"kamrankamilli/xmpp/uri"
+	"github.com/kamrankamilli/xmpp/jid"
+	"github.com/kamrankamilli/xmpp/uri"
 )
 
 var parseTests = [...]struct {

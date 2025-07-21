@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"text/template"
 
-	"kamrankamilli/xmpp/jid"
+	"github.com/kamrankamilli/xmpp/jid"
 )
 
 // Config contains options that can be written to the config file.

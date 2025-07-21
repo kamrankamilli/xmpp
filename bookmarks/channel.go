@@ -10,7 +10,7 @@ import (
 	"strconv"
 
 	"mellium.im/xmlstream"
-	"kamrankamilli/xmpp/jid"
+	"github.com/kamrankamilli/xmpp/jid"
 )
 
 // Channel represents a single chat room with various properties.

@@ -7,7 +7,7 @@
 // found in the file "LICENSE.modules".
 
 // Package prosody facilitates integration testing against Prosody.
-package prosody // import "kamrankamilli/xmpp/internal/integration/prosody"
+package prosody // import "github.com/kamrankamilli/xmpp/internal/integration/prosody"
 
 import (
 	"context"
@@ -18,8 +18,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"kamrankamilli/xmpp/internal/integration"
-	"kamrankamilli/xmpp/jid"
+	"github.com/kamrankamilli/xmpp/internal/integration"
+	"github.com/kamrankamilli/xmpp/jid"
 )
 
 const (

@@ -5,7 +5,7 @@
 package bookmarks
 
 import (
-	"kamrankamilli/xmpp/disco/info"
+	"github.com/kamrankamilli/xmpp/disco/info"
 )
 
 // Handler can be registered against a mux to handle bookmark pushes.

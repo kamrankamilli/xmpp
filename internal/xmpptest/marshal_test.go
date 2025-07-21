@@ -8,7 +8,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"kamrankamilli/xmpp/internal/xmpptest"
+	"github.com/kamrankamilli/xmpp/internal/xmpptest"
 )
 
 var marshalTestCases = []xmpptest.EncodingTestCase{

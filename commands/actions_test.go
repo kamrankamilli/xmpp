@@ -7,8 +7,8 @@ package commands_test
 import (
 	"testing"
 
-	"kamrankamilli/xmpp/commands"
-	"kamrankamilli/xmpp/internal/xmpptest"
+	"github.com/kamrankamilli/xmpp/commands"
+	"github.com/kamrankamilli/xmpp/internal/xmpptest"
 )
 
 func TestActions(t *testing.T) {

@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"testing"
 
-	"kamrankamilli/xmpp/internal/cid"
+	"github.com/kamrankamilli/xmpp/internal/cid"
 )
 
 const invalidURL = "%gh&%ij"

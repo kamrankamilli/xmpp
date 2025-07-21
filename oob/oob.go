@@ -5,13 +5,13 @@
 //go:generate go run ../internal/genfeature -vars=Feature:NS,FeatureIQ:NS
 
 // Package oob implements XEP-0066: Out of Band Data.
-package oob // import "kamrankamilli/xmpp/oob"
+package oob // import "github.com/kamrankamilli/xmpp/oob"
 
 import (
 	"encoding/xml"
 
 	"mellium.im/xmlstream"
-	"kamrankamilli/xmpp/stanza"
+	"github.com/kamrankamilli/xmpp/stanza"
 )
 
 // OOB namespaces provided as a convenience.

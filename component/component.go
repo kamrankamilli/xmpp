@@ -4,7 +4,7 @@
 
 // Package component is used to establish XEP-0114: Jabber Component Protocol
 // connections.
-package component // import "kamrankamilli/xmpp/component"
+package component // import "github.com/kamrankamilli/xmpp/component"
 
 import (
 	"context"
@@ -15,9 +15,9 @@ import (
 	"fmt"
 	"io"
 
-	"kamrankamilli/xmpp"
-	"kamrankamilli/xmpp/jid"
-	"kamrankamilli/xmpp/stream"
+	"github.com/kamrankamilli/xmpp"
+	"github.com/kamrankamilli/xmpp/jid"
+	"github.com/kamrankamilli/xmpp/stream"
 )
 
 // A list of namespaces used by this package, provided as a convenience.

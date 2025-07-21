@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // The genpubsub command creates pubsub error condition and feature types.
-package main // import "kamrankamilli/xmpp/internal/genpubsub"
+package main // import "github.com/kamrankamilli/xmpp/internal/genpubsub"
 
 import (
 	"bytes"

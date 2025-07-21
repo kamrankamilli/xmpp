@@ -33,7 +33,7 @@
 //
 //	channel, err := mucClient.Join(…)
 //	channel.Subject(context.Background(), "Bridge operation and tactical readiness")
-package muc // import "kamrankamilli/xmpp/muc"
+package muc // import "github.com/kamrankamilli/xmpp/muc"
 
 import (
 	"context"
@@ -41,11 +41,11 @@ import (
 	"sync"
 
 	"mellium.im/xmlstream"
-	"kamrankamilli/xmpp"
-	"kamrankamilli/xmpp/form"
-	"kamrankamilli/xmpp/jid"
-	"kamrankamilli/xmpp/mux"
-	"kamrankamilli/xmpp/stanza"
+	"github.com/kamrankamilli/xmpp"
+	"github.com/kamrankamilli/xmpp/form"
+	"github.com/kamrankamilli/xmpp/jid"
+	"github.com/kamrankamilli/xmpp/mux"
+	"github.com/kamrankamilli/xmpp/stanza"
 )
 
 // Various namespaces used by this package, provided as a convenience.

@@ -12,10 +12,10 @@ import (
 	"strings"
 	"testing"
 
-	"kamrankamilli/xmpp"
-	"kamrankamilli/xmpp/internal/ns"
-	"kamrankamilli/xmpp/internal/xmpptest"
-	"kamrankamilli/xmpp/jid"
+	"github.com/kamrankamilli/xmpp"
+	"github.com/kamrankamilli/xmpp/internal/ns"
+	"github.com/kamrankamilli/xmpp/internal/xmpptest"
+	"github.com/kamrankamilli/xmpp/jid"
 )
 
 func TestBindList(t *testing.T) {

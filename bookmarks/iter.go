@@ -8,10 +8,10 @@ import (
 	"context"
 	"encoding/xml"
 
-	"kamrankamilli/xmpp"
-	"kamrankamilli/xmpp/jid"
-	"kamrankamilli/xmpp/pubsub"
-	"kamrankamilli/xmpp/stanza"
+	"github.com/kamrankamilli/xmpp"
+	"github.com/kamrankamilli/xmpp/jid"
+	"github.com/kamrankamilli/xmpp/pubsub"
+	"github.com/kamrankamilli/xmpp/stanza"
 )
 
 // Fetch requests all bookmarks from the server and returns an iterator over the

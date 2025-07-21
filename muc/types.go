@@ -10,7 +10,7 @@ import (
 	"encoding/xml"
 	"errors"
 
-	"kamrankamilli/xmpp/jid"
+	"github.com/kamrankamilli/xmpp/jid"
 )
 
 // Item represents a user in the channel.

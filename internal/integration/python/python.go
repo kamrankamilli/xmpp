@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // Package python facilitates integration testing against Python scripts.
-package python // import "kamrankamilli/xmpp/internal/integration/python"
+package python // import "github.com/kamrankamilli/xmpp/internal/integration/python"
 
 import (
 	"context"
@@ -11,8 +11,8 @@ import (
 	"testing"
 	"text/template"
 
-	"kamrankamilli/xmpp/internal/attr"
-	"kamrankamilli/xmpp/internal/integration"
+	"github.com/kamrankamilli/xmpp/internal/attr"
+	"github.com/kamrankamilli/xmpp/internal/integration"
 )
 
 const cmdName = "python"

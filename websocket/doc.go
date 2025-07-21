@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // Package websocket implements a WebSocket transport for XMPP.
-package websocket // import "kamrankamilli/xmpp/websocket"
+package websocket // import "github.com/kamrankamilli/xmpp/websocket"
 
 // Various constants used by this package, provided as a convenience.
 const (

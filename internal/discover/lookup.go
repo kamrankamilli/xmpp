@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // Package discover is used to look up information about XMPP-based services.
-package discover // import "kamrankamilli/xmpp/internal/discover"
+package discover // import "github.com/kamrankamilli/xmpp/internal/discover"
 
 import (
 	"context"
@@ -15,7 +15,7 @@ import (
 	"net/url"
 	"path"
 
-	"kamrankamilli/xmpp/jid"
+	"github.com/kamrankamilli/xmpp/jid"
 )
 
 const (

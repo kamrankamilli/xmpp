@@ -7,10 +7,10 @@ package bookmarks
 import (
 	"context"
 
-	"kamrankamilli/xmpp"
-	"kamrankamilli/xmpp/jid"
-	"kamrankamilli/xmpp/pubsub"
-	"kamrankamilli/xmpp/stanza"
+	"github.com/kamrankamilli/xmpp"
+	"github.com/kamrankamilli/xmpp/jid"
+	"github.com/kamrankamilli/xmpp/pubsub"
+	"github.com/kamrankamilli/xmpp/stanza"
 )
 
 // Publish creates or updates the bookmark.

@@ -10,9 +10,9 @@ import (
 	"strconv"
 
 	"mellium.im/xmlstream"
-	"kamrankamilli/xmpp"
-	"kamrankamilli/xmpp/paging"
-	"kamrankamilli/xmpp/stanza"
+	"github.com/kamrankamilli/xmpp"
+	"github.com/kamrankamilli/xmpp/paging"
+	"github.com/kamrankamilli/xmpp/stanza"
 )
 
 // Query represents the options for fetching and iterating over pubsub items.

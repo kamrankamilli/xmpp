@@ -12,7 +12,7 @@ import (
 	"strings"
 	"testing"
 
-	"kamrankamilli/xmpp/jid"
+	"github.com/kamrankamilli/xmpp/jid"
 )
 
 // Compile time checks to make sure that JID and *jid.JID match several interfaces.

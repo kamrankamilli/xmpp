@@ -4,4 +4,4 @@
 
 // Package internal provides non-exported functionality used by xmpp and its
 // child packages.
-package internal // import "kamrankamilli/xmpp/internal"
+package internal // import "github.com/kamrankamilli/xmpp/internal"

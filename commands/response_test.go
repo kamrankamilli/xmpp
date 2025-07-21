@@ -8,8 +8,8 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"kamrankamilli/xmpp/commands"
-	"kamrankamilli/xmpp/internal/xmpptest"
+	"github.com/kamrankamilli/xmpp/commands"
+	"github.com/kamrankamilli/xmpp/internal/xmpptest"
 )
 
 func TestNoteTypes(t *testing.T) {

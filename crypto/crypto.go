@@ -5,7 +5,7 @@
 //go:generate go run ../internal/genfeature
 
 // Package crypto contains common cryptographic elements.
-package crypto // import "kamrankamilli/xmpp/crypto"
+package crypto // import "github.com/kamrankamilli/xmpp/crypto"
 
 import (
 	"crypto"

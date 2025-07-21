@@ -9,8 +9,8 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"kamrankamilli/xmpp/disco"
-	"kamrankamilli/xmpp/disco/info"
+	"github.com/kamrankamilli/xmpp/disco"
+	"github.com/kamrankamilli/xmpp/disco/info"
 )
 
 func TestMarshalQuery(t *testing.T) {

@@ -10,8 +10,8 @@ import (
 	"net"
 	"sync"
 
-	"kamrankamilli/xmpp"
-	"kamrankamilli/xmpp/jid"
+	"github.com/kamrankamilli/xmpp"
+	"github.com/kamrankamilli/xmpp/jid"
 )
 
 type expected struct {

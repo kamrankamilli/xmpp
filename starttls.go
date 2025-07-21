@@ -12,7 +12,7 @@ import (
 	"io"
 
 	"mellium.im/xmlstream"
-	"kamrankamilli/xmpp/internal/ns"
+	"github.com/kamrankamilli/xmpp/internal/ns"
 )
 
 // StartTLS returns a new stream feature that can be used for negotiating TLS.

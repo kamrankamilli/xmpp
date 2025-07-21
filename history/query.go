@@ -9,9 +9,9 @@ import (
 	"time"
 
 	"mellium.im/xmlstream"
-	"kamrankamilli/xmpp/form"
-	"kamrankamilli/xmpp/jid"
-	"kamrankamilli/xmpp/paging"
+	"github.com/kamrankamilli/xmpp/form"
+	"github.com/kamrankamilli/xmpp/jid"
+	"github.com/kamrankamilli/xmpp/paging"
 )
 
 // Query is a request to the archive for data.

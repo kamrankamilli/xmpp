@@ -7,9 +7,9 @@ package s2s_test
 import (
 	"testing"
 
-	"kamrankamilli/xmpp"
-	"kamrankamilli/xmpp/internal/xmpptest"
-	"kamrankamilli/xmpp/s2s"
+	"github.com/kamrankamilli/xmpp"
+	"github.com/kamrankamilli/xmpp/internal/xmpptest"
+	"github.com/kamrankamilli/xmpp/s2s"
 )
 
 var bidiTestCases = [...]xmpptest.FeatureTestCase{

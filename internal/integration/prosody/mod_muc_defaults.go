@@ -8,7 +8,7 @@ import (
 	_ "embed"
 	"io"
 
-	"kamrankamilli/xmpp/internal/integration"
+	"github.com/kamrankamilli/xmpp/internal/integration"
 )
 
 //go:embed mod_muc_defaults.lua

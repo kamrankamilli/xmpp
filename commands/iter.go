@@ -7,10 +7,10 @@ package commands
 import (
 	"context"
 
-	"kamrankamilli/xmpp"
-	"kamrankamilli/xmpp/disco"
-	"kamrankamilli/xmpp/jid"
-	"kamrankamilli/xmpp/stanza"
+	"github.com/kamrankamilli/xmpp"
+	"github.com/kamrankamilli/xmpp/disco"
+	"github.com/kamrankamilli/xmpp/jid"
+	"github.com/kamrankamilli/xmpp/stanza"
 )
 
 // Iter is an iterator over Command's.
